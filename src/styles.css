@@ -32,12 +32,22 @@
   --focus: #8a5b0b;          /*  5.49:1 */
   --shadow-lift: 0 -1px 0 var(--border), 0 -10px 28px rgb(18 34 43 / 0.08);
   --shadow-sheet: 0 -12px 40px rgb(18 34 43 / 0.16);
+  /* Midday light is hard and close, so the cast shadow is tight, not a haze. */
+  --shadow-sun: 0 20px 36px -22px rgb(18 34 43 / 0.55);
+  /* Limewash catches the light along a top edge. This is the whole reason
+     surfaces read as plaster rather than as cards. */
+  --lit-edge: inset 0 1px 0 rgb(255 255 255 / 0.85);
+  --texture-opacity: 0.05;
+  --texture-blend: multiply;
 
   /* ---- space ---- */
   --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px;
 
   /* ---- radius: sun-worn, not corporate ---- */
-  --r-sm: 10px; --r-md: 14px; --r-lg: 18px; --r-xl: 26px; --r-full: 999px;
+  --r-sm: 10px; --r-md: 14px; --r-lg: 20px; --r-xl: 28px; --r-full: 999px;
+  /* A Cycladic chapel window: semicircular head, squared foot. Used exactly
+     once, on the Now Playing artwork. */
+  --r-arch: 999px 999px var(--r-xl) var(--r-xl);
 
   /* ---- motion ---- */
   --dur-instant: 120ms;
@@ -68,6 +78,10 @@
     --focus: #f5c86b;         /* 11.67:1 */
     --shadow-lift: 0 -1px 0 var(--border), 0 -10px 28px rgb(0 0 0 / 0.4);
     --shadow-sheet: 0 -12px 40px rgb(0 0 0 / 0.5);
+    --shadow-sun: 0 20px 40px -22px rgb(0 0 0 / 0.75);
+    --lit-edge: inset 0 1px 0 rgb(255 255 255 / 0.06);
+    --texture-opacity: 0.055;
+    --texture-blend: screen;
   }
 }
 
@@ -79,6 +93,10 @@
   --accent-ink: #ffffff; --live: #a81552; --focus: #8a5b0b;
   --shadow-lift: 0 -1px 0 var(--border), 0 -10px 28px rgb(18 34 43 / 0.08);
   --shadow-sheet: 0 -12px 40px rgb(18 34 43 / 0.16);
+  --shadow-sun: 0 20px 36px -22px rgb(18 34 43 / 0.55);
+  --lit-edge: inset 0 1px 0 rgb(255 255 255 / 0.85);
+  --texture-opacity: 0.05;
+  --texture-blend: multiply;
 }
 :root[data-theme='dark'] {
   color-scheme: dark;
@@ -87,6 +105,10 @@
   --accent-ink: #04212c; --live: #ff7ba8; --focus: #f5c86b;
   --shadow-lift: 0 -1px 0 var(--border), 0 -10px 28px rgb(0 0 0 / 0.4);
   --shadow-sheet: 0 -12px 40px rgb(0 0 0 / 0.5);
+  --shadow-sun: 0 20px 40px -22px rgb(0 0 0 / 0.75);
+  --lit-edge: inset 0 1px 0 rgb(255 255 255 / 0.06);
+  --texture-opacity: 0.055;
+  --texture-blend: screen;
 }
 
 /* ------------------------------------------------------------------ reset */
@@ -104,6 +126,26 @@ body {
   line-height: 1.45;            /* ≥1.35 so Greek tonos never clips */
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none;
+}
+
+/**
+ * Limewash.
+ *
+ * A whitewashed Cycladic wall is not a flat fill — it is brushed plaster that
+ * breaks the light. This is a single 140px tile of fractal noise, ~400 bytes
+ * inline, held at 5% and composited by the GPU. It is not a gradient and not
+ * decoration: it is the difference between "off-white background" and "wall".
+ */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: var(--texture-opacity);
+  mix-blend-mode: var(--texture-blend);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 140px 140px;
 }
 
 button { font: inherit; color: inherit; background: none; border: 0; margin: 0; }
@@ -130,6 +172,8 @@ img { max-width: 100%; display: block; }
 /* ------------------------------------------------------------------ shell */
 
 .app {
+  position: relative;
+  z-index: 1;               /* above the limewash */
   min-height: 100%;
   max-width: 560px;
   margin-inline: auto;
@@ -172,7 +216,9 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
-  margin: var(--s5) 0 var(--s2);
+  /* More air between sections than a list needs. Summer light is generous;
+     the screen should feel unhurried, not efficient. */
+  margin: var(--s6) 0 var(--s2);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -364,6 +410,7 @@ img { max-width: 100%; display: block; }
   border-radius: var(--r-lg);
   background: var(--surface);
   border: 1px solid var(--border);
+  box-shadow: var(--lit-edge);
   cursor: pointer;
   /* <button> centres its text by default; the icon does not stretch, so the two
      would sit on different left edges. */
@@ -436,7 +483,10 @@ img { max-width: 100%; display: block; }
   height: var(--mini-h);
   padding-inline: var(--s3);
   background: var(--surface);
-  box-shadow: var(--shadow-lift);
+  /* A waterline: the one place a sea edge shows in the chrome, and only when
+     something is actually playing. */
+  border-top: 2px solid color-mix(in oklab, var(--accent) 30%, transparent);
+  box-shadow: var(--shadow-lift), var(--lit-edge);
 }
 .mini__open {
   flex: 1;
@@ -518,12 +568,25 @@ img { max-width: 100%; display: block; }
   overflow-y: auto;
 }
 .np__top { display: flex; align-items: center; min-height: 56px; }
+/**
+ * The arch.
+ *
+ * A semicircular head on a squared foot — the shape of every whitewashed
+ * chapel window and doorway in the Cyclades. It appears exactly once, on the
+ * one element the PRD says should carry the visual character (§29: "station
+ * artwork carries most of the visual character"). Everywhere else keeps
+ * rectangles, so this reads as intent rather than as a theme.
+ */
 .np__art {
   width: min(72vw, 260px);
   height: auto;              /* must beat the 48px row default on .art */
   aspect-ratio: 1;
   margin: var(--s3) auto var(--s5);
-  border-radius: var(--r-xl);
+  border-radius: var(--r-arch);
+  /* The visual mass sits low under an arch, so the monogram is nudged down to
+     land optically centred rather than mathematically centred. */
+  padding-top: 8%;
+  box-shadow: var(--shadow-sun);
   font-size: clamp(64px, 22vw, 84px);
 }
 .np__name {
@@ -584,9 +647,13 @@ img { max-width: 100%; display: block; }
   width: 72px; height: 72px;
   background: var(--accent);
   color: var(--accent-ink);
-  transition: transform var(--dur-instant) var(--ease-out);
+  transition: transform var(--dur-instant) var(--ease-out), box-shadow var(--dur) var(--ease-out);
 }
-.tbtn--main:hover { background: var(--accent); }
+/* A halo of sea, not a glow: it only appears on hover and never moves. */
+.tbtn--main:hover {
+  background: var(--accent);
+  box-shadow: 0 0 0 8px color-mix(in oklab, var(--accent) 16%, transparent);
+}
 .tbtn--main:active { transform: scale(0.95); }
 
 .np__actions { display: flex; justify-content: center; gap: var(--s7); margin-top: var(--s5); }
@@ -666,6 +733,8 @@ img { max-width: 100%; display: block; }
   padding-inline: var(--s4);
   border-radius: var(--r-full);
   border: 1px solid var(--border-strong);
+  background: var(--surface);
+  box-shadow: var(--lit-edge);
   color: var(--text);
   font-size: 15px;
   cursor: pointer;
@@ -707,6 +776,7 @@ img { max-width: 100%; display: block; }
   border: 1px solid var(--border);
   background: var(--surface);
   border-radius: var(--r-lg);
+  box-shadow: var(--lit-edge);
   padding: var(--s4);
   margin-top: var(--s5);
 }

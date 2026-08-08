@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Lets the nightly catalog job redeploy after it refreshes station health.
+  # A push made with GITHUB_TOKEN does NOT trigger `on: push`, so without this
+  # the site would keep serving yesterday's catalog.
+  workflow_call:
 
 permissions:
   contents: read
@@ -34,11 +38,39 @@ jobs:
       - name: Test
         run: npm test
 
+      - name: Resolve Pages base path
+        id: base
+        # A project site lives at /<repo>/; a user or org site (a repo literally
+        # named <owner>.github.io) lives at the origin root. Deriving this from
+        # GITHUB_REPOSITORY rather than hardcoding means a rename cannot quietly
+        # ship a build whose asset URLs point at the old path.
+        run: |
+          repo="${GITHUB_REPOSITORY#*/}"
+          if [ "$repo" = "${GITHUB_REPOSITORY_OWNER}.github.io" ]; then
+            base="/"
+          else
+            base="/$repo/"
+          fi
+          echo "base=$base" >> "$GITHUB_OUTPUT"
+          echo "Building for base: $base"
+
       - name: Build
-        # Project Pages serve from /<repo>/, not the origin root.
         env:
-          PAGES_BASE: /${{ github.event.repository.name }}/
+          PAGES_BASE: ${{ steps.base.outputs.base }}
         run: npx vite build
+
+      - name: Verify asset paths match the deploy path
+        # Cheap insurance against the failure mode that produces a blank white
+        # page on Pages: a bundle whose asset URLs do not match where it is
+        # actually served from.
+        run: |
+          base="${{ steps.base.outputs.base }}"
+          grep -q "src=\"${base}assets/" dist/index.html \
+            || { echo "::error::index.html does not reference ${base}assets/"; exit 1; }
+          grep -q "\"start_url\":\"${base}\"" dist/manifest.webmanifest \
+            || { echo "::error::manifest start_url is not ${base}"; exit 1; }
+          test -f dist/catalog.json || { echo "::error::catalog.json missing from build"; exit 1; }
+          echo "asset paths, manifest scope and catalog all verified for ${base}"
 
       - name: SPA fallback for deep links
         # GitHub Pages has no rewrite rules, so a cold load of

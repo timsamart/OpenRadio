@@ -6,12 +6,13 @@ on:
     - cron: '17 4 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
 
@@ -26,13 +27,27 @@ jobs:
         run: node scripts/health.mjs
 
       - name: Commit catalog if it changed
+        id: commit
         run: |
           git config user.name  "openradio-bot"
           git config user.email "bot@users.noreply.github.com"
           git add public/catalog.json data/catalog.raw.json data/health.history.json
           if git diff --staged --quiet; then
             echo "catalog unchanged"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(catalog): refresh station health"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+  # A push made with GITHUB_TOKEN deliberately does not trigger `on: push`,
+  # so the deploy has to be invoked rather than waited for.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

@@ -186,8 +186,35 @@ Load `subset=latin,latin-ext,greek,greek-ext`, weights 400/500/600 only. Self-ho
 --shadow-mini:  0 -1px 0 var(--border), 0 -6px 24px rgb(0 0 0 / .18);
 ```
 
-Elevation is expressed as **surface tint first, shadow second**. No shadow anywhere except
-the mini-player lip and the Now Playing sheet — those two are the only elements that float.
+Elevation is expressed as **surface tint first, shadow second**. Four shadows exist and
+there is no fifth:
+
+| Token | Where | Why |
+|---|---|---|
+| `--shadow-mini` | mini-player lip | it floats over content |
+| `--shadow-sheet` | Now Playing / timer sheet | it floats over the screen |
+| `--shadow-sun` | Now Playing artwork only | midday light is hard and close, so this is tight and offset, never a haze |
+| `--lit-edge` | raised surfaces (tiles, cards, chips, mini-player) | a 1px top highlight — limewash catching the light. This is what makes a surface read as plaster rather than as a card |
+
+### The three Greek-summer devices
+
+The palette does the work; these three do the rest, and there are only three so
+each one still registers.
+
+1. **Limewash** — a 140px fractal-noise tile at 5% opacity, `multiply` in light
+   and `screen` in dark, fixed behind the app (`body::before`). ~400 bytes inline,
+   GPU-composited. It is not a gradient and not decoration: it is the difference
+   between an off-white background and a wall.
+2. **The arch** — `--r-arch`, a semicircular head on a squared foot, the shape of
+   every whitewashed chapel window in the Cyclades. Used **exactly once**, on the
+   Now Playing artwork, which §29 already names as the element carrying the visual
+   character. Everywhere else stays rectangular so the arch reads as intent.
+3. **The waterline** — the mini-player's top edge is 2px of the accent at 30%,
+   the single place a sea edge enters the chrome, and only while something plays.
+
+Deliberately not used: the meander (Greek key). It is the most recognisable Greek
+ornament and the fastest route to looking like a taverna menu. Summer here comes
+from light, plaster and sea, not from souvenirs.
 
 **Layout envelope (mobile-first):** content `padding-inline: 16px`, max content width
 `480px` centred; at ≥768px the same single column is centred with the tab bar becoming a
