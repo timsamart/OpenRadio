@@ -30,6 +30,15 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Enable GitHub Pages
+        # `enablement: true` turns Pages on for the repository if it is off, so
+        # the first run configures the site itself. Without this the deploy job
+        # fails with "Get Pages site failed" until someone visits
+        # Settings → Pages by hand.
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
       - run: npm ci
 
       - name: Typecheck
