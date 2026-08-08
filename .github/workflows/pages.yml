@@ -31,11 +31,17 @@ jobs:
           cache: npm
 
       - name: Enable GitHub Pages
-        # `enablement: true` turns Pages on for the repository if it is off, so
-        # the first run configures the site itself. Without this the deploy job
-        # fails with "Get Pages site failed" until someone visits
-        # Settings → Pages by hand.
+        # `enablement: true` creates the Pages site when it is missing. GITHUB_TOKEN
+        # is often not permitted to CREATE one ("Resource not accessible by
+        # integration") even with pages: write — creation needs admin rights the
+        # default token does not carry. So this must not be able to fail the build:
+        # once the site exists the step is a no-op, and if it does not exist the
+        # deploy step below reports it far more clearly.
+        #
+        # Creating it once, out of band:
+        #   gh api -X POST repos/<owner>/<repo>/pages -f build_type=workflow
         uses: actions/configure-pages@v5
+        continue-on-error: true
         with:
           enablement: true
 
