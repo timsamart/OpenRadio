@@ -1,0 +1,189 @@
+{
+  "_readme": [
+    "Product-owned station facts. This file WINS over anything Radio Browser says (PRD §17).",
+    "Names here carry no frequency — the UI composes `name + frequency.value`, and the",
+    "frequency itself comes from the ingested source record. That keeps the display name",
+    "and the dial position as separate facts instead of one hand-typed string.",
+    "`match` lists the source names this override attaches to (compared accent-insensitively).",
+    "Transliterations are NOT listed here: they are derived at runtime by src/search/greek.ts,",
+    "so there is exactly one source of truth for Greek↔Latin folding."
+  ],
+  "block": [
+    "test",
+    "test stream"
+  ],
+  "featured": [
+    "sfera",
+    "rythmos",
+    "dromos",
+    "melodia",
+    "derti",
+    "en-lefko",
+    "kosmos",
+    "skai"
+  ],
+  "stations": {
+    "sfera": {
+      "id": "sfera",
+      "name": "Sfera",
+      "name_el": "Σφαίρα",
+      "aliases": ["Sfera FM", "Σφαίρα FM"],
+      "city": "Athens",
+      "genres": ["greek-pop"],
+      "match": ["Sfera 102.2", "Sfera", "Σφαίρα 102.2", "Sfera FM"]
+    },
+    "rythmos": {
+      "id": "rythmos",
+      "name": "Rythmos",
+      "name_el": "Ρυθμός",
+      "aliases": ["Rythmos FM", "Ρυθμός FM"],
+      "city": "Athens",
+      "genres": ["greek-pop"],
+      "match": ["Rythmos 94.9", "Rythmos", "Ρυθμός 94.9", "Rythmos FM"]
+    },
+    "dromos": {
+      "id": "dromos",
+      "name": "Dromos",
+      "name_el": "Δρόμος",
+      "aliases": ["Dromos FM", "Δρόμος FM"],
+      "city": "Athens",
+      "genres": ["laiko"],
+      "match": ["Dromos 89.8", "Dromos FM", "Δρόμος 89.8", "Dromos"]
+    },
+    "melodia": {
+      "id": "melodia",
+      "name": "Melodia",
+      "name_el": "Μελωδία",
+      "aliases": ["Melodia FM", "Μελωδία FM"],
+      "city": "Athens",
+      "genres": ["entekhno"],
+      "match": ["Melodia 99.2", "Melodia FM", "Μελωδία 99.2", "Melodia"]
+    },
+    "derti": {
+      "id": "derti",
+      "name": "Derti",
+      "name_el": "Ντέρτι",
+      "aliases": ["Derti FM", "Ντέρτι FM"],
+      "city": "Athens",
+      "genres": ["laiko"],
+      "match": ["Derti 98.6", "Derti FM", "Ντέρτι 98.6", "Derti"]
+    },
+    "skai": {
+      "id": "skai",
+      "name": "Skai",
+      "name_el": "Σκάι",
+      "aliases": ["Skai FM", "ΣΚΑΪ"],
+      "city": "Athens",
+      "genres": ["news-talk"],
+      "match": ["Skai 100.3", "Skai FM", "ΣΚΑΪ 100.3", "Skai"]
+    },
+    "en-lefko": {
+      "id": "en-lefko",
+      "name": "En Lefko",
+      "name_el": "Εν Λευκώ",
+      "aliases": ["En Lefko 87.7", "Εν Λευκώ"],
+      "city": "Athens",
+      "genres": ["international"],
+      "match": ["En Lefko 87.7", "En Lefko", "Εν Λευκώ 87.7"]
+    },
+    "kosmos": {
+      "id": "kosmos",
+      "name": "Kosmos",
+      "name_el": "Κόσμος",
+      "aliases": ["ERT Kosmos", "Κόσμος 93.6"],
+      "city": "Athens",
+      "genres": ["international"],
+      "match": ["Kosmos 93.6", "ERT Kosmos", "Κόσμος 93.6", "Kosmos"]
+    },
+    "best": {
+      "id": "best",
+      "name": "Best",
+      "name_el": null,
+      "aliases": ["Best Radio", "Best FM"],
+      "city": "Athens",
+      "genres": ["international"],
+      "match": ["Best 92.6", "Best Radio 92.6", "Best Radio"]
+    },
+    "parapolitika": {
+      "id": "parapolitika",
+      "name": "Parapolitika",
+      "name_el": "Παραπολιτικά",
+      "aliases": ["Parapolitika FM"],
+      "city": "Athens",
+      "genres": ["news-talk"],
+      "match": ["Parapolitika 90.1", "Παραπολιτικά 90.1", "Parapolitika FM"]
+    },
+    "real-fm": {
+      "id": "real-fm",
+      "name": "Real FM",
+      "name_el": null,
+      "aliases": ["Real"],
+      "city": "Athens",
+      "genres": ["news-talk"],
+      "match": ["Real FM 97.8", "Real FM"]
+    },
+    "athina-984": {
+      "id": "athina-984",
+      "name": "Athina 9.84",
+      "name_el": "Αθήνα 9.84",
+      "aliases": ["Athina 984", "Αθήνα 984"],
+      "city": "Athens",
+      "genres": ["news-talk"],
+      "match": ["Athina 9.84", "Αθήνα 9.84", "Athina 984"]
+    },
+    "lampsi": {
+      "id": "lampsi",
+      "name": "Lampsi",
+      "name_el": "Λάμψη",
+      "aliases": ["Lampsi FM", "Λάμψη FM"],
+      "city": "Athens",
+      "genres": ["laiko"],
+      "match": ["Lampsi 92.3", "Lampsi FM", "Λάμψη 92.3"]
+    },
+    "diesi": {
+      "id": "diesi",
+      "name": "Diesi",
+      "name_el": "Δίεση",
+      "aliases": ["Diesi FM", "Δίεση FM"],
+      "city": "Athens",
+      "genres": ["greek-pop"],
+      "match": ["Diesi 101.3", "Diesi FM", "Δίεση 101.3"]
+    },
+    "red": {
+      "id": "red",
+      "name": "Red",
+      "name_el": null,
+      "aliases": ["Red FM", "Red 96.3"],
+      "city": "Athens",
+      "genres": ["international"],
+      "match": ["Red 96.3", "Red FM"]
+    },
+    "kiss": {
+      "id": "kiss",
+      "name": "Kiss",
+      "name_el": null,
+      "aliases": ["Kiss FM"],
+      "city": "Athens",
+      "genres": ["international"],
+      "match": ["Kiss 92.9", "Kiss FM"]
+    },
+    "love-radio": {
+      "id": "love-radio",
+      "name": "Love Radio",
+      "name_el": null,
+      "aliases": ["Love 97.5"],
+      "city": "Athens",
+      "genres": ["greek-pop"],
+      "match": ["Love Radio 97.5", "Love 97.5", "Love Radio"]
+    },
+    "easy": {
+      "id": "easy",
+      "name": "Easy",
+      "name_el": null,
+      "aliases": ["Easy FM", "Easy 97.2"],
+      "city": "Athens",
+      "genres": ["international"],
+      "match": ["Easy 97.2", "Easy FM"]
+    }
+  }
+}

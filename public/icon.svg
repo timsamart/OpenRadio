@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="OpenRadio">
+  <defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0A6E9E"/><stop offset="1" stop-color="#072A3E"/>
+  </linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#sea)"/>
+  <g fill="none" stroke="#FBF7EF" stroke-width="26" stroke-linecap="round">
+    <path d="M164 379a88 88 0 0 1 88-88"/>
+    <path d="M164 379a134 134 0 0 1 134-134"/>
+    <path d="M164 379a180 180 0 0 1 180-180"/>
+  </g>
+  <circle cx="164" cy="379" r="27" fill="#FBF7EF"/>
+</svg>

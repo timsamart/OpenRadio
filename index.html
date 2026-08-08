@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="el-GR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>OpenRadio — Ελληνικό ραδιόφωνο</title>
+    <meta name="description" content="Άνοιξε. Πάτα. Άκου. Ελληνικό ραδιόφωνο ζωντανά — χωρίς λογαριασμό, χωρίς διαφημίσεις από εμάς." />
+
+    <!-- Both themes are real designs, so both get a theme-color. -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FBF7EF" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#071620" />
+    <meta name="color-scheme" content="light dark" />
+
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="OpenRadio" />
+
+    <!-- Inter carries greek + greek-ext. Preconnect only; the stylesheet is
+         loaded non-blocking so a slow font server can never delay the shell. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap&subset=latin,latin-ext,greek,greek-ext"
+    />
+
+    <style>
+      /* Paint the ground before any JS runs so a cold launch never flashes white
+         at someone opening the app in bed. */
+      html { background: #fbf7ef; }
+      @media (prefers-color-scheme: dark) { html { background: #071620; } }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

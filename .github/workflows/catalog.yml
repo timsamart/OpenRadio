@@ -1,0 +1,38 @@
+name: Catalog health
+
+# "The user should not be the monitoring system" (PRD §16). This is the system.
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ingest from Radio Browser
+        run: node scripts/ingest.mjs
+
+      - name: Probe every stream
+        run: node scripts/health.mjs
+
+      - name: Commit catalog if it changed
+        run: |
+          git config user.name  "openradio-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add public/catalog.json data/catalog.raw.json data/health.history.json
+          if git diff --staged --quiet; then
+            echo "catalog unchanged"
+          else
+            git commit -m "chore(catalog): refresh station health"
+            git push
+          fi
