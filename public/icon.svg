@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="OpenRadio">
-  <defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#0A6E9E"/><stop offset="1" stop-color="#072A3E"/>
-  </linearGradient></defs>
-  <rect width="512" height="512" rx="112" fill="url(#sea)"/>
-  <g fill="none" stroke="#FBF7EF" stroke-width="26" stroke-linecap="round">
-    <path d="M164 379a88 88 0 0 1 88-88"/>
-    <path d="M164 379a134 134 0 0 1 134-134"/>
-    <path d="M164 379a180 180 0 0 1 180-180"/>
-  </g>
-  <circle cx="164" cy="379" r="27" fill="#FBF7EF"/>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#081D3E"/><stop offset="1" stop-color="#04122A"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#27BEEA"/><stop offset="1" stop-color="#12A9DB"/></linearGradient>
+    <linearGradient id="coral" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FF765B"/><stop offset="1" stop-color="#FF5743"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#navy)"/>
+  <path d="M298 115A164 164 0 1 0 392 204" fill="none" stroke="url(#cyan)" stroke-width="38" stroke-linecap="round"/>
+  <path d="M241 276L404 102" fill="none" stroke="url(#coral)" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="241" cy="276" r="24" fill="url(#coral)"/>
+  <path d="M391 71A32 32 0 0 1 435 117" fill="none" stroke="url(#coral)" stroke-width="10" stroke-linecap="round"/>
 </svg>
