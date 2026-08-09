@@ -1,0 +1,773 @@
+{
+  "version": 1,
+  "count": 51,
+  "format": "webp",
+  "source": "AI-generated radio master artwork contact sheet",
+  "backgrounds": [
+    {
+      "id": "greek-contemporary-01",
+      "genre": "greek-contemporary",
+      "variant": 1,
+      "src": "/backgrounds/greek-contemporary-01.webp",
+      "width": 1280,
+      "height": 816,
+      "palette": [
+        "#c8d0d1",
+        "#55708d",
+        "#562c5d",
+        "#c3baac",
+        "#e9dcc2"
+      ]
+    },
+    {
+      "id": "greek-contemporary-02",
+      "genre": "greek-contemporary",
+      "variant": 2,
+      "src": "/backgrounds/greek-contemporary-02.webp",
+      "width": 1280,
+      "height": 884,
+      "palette": [
+        "#0a4072",
+        "#e6bb8e",
+        "#918e87",
+        "#f7ce9a",
+        "#5c5b6f"
+      ]
+    },
+    {
+      "id": "greek-contemporary-03",
+      "genre": "greek-contemporary",
+      "variant": 3,
+      "src": "/backgrounds/greek-contemporary-03.webp",
+      "width": 1280,
+      "height": 941,
+      "palette": [
+        "#e8d8bf",
+        "#b2ae96",
+        "#303456",
+        "#bd7254",
+        "#3e696e"
+      ]
+    },
+    {
+      "id": "greek-contemporary-04",
+      "genre": "greek-contemporary",
+      "variant": 4,
+      "src": "/backgrounds/greek-contemporary-04.webp",
+      "width": 1280,
+      "height": 925,
+      "palette": [
+        "#60889c",
+        "#012264",
+        "#042b6c",
+        "#a4baba",
+        "#353763"
+      ]
+    },
+    {
+      "id": "greek-contemporary-05",
+      "genre": "greek-contemporary",
+      "variant": 5,
+      "src": "/backgrounds/greek-contemporary-05.webp",
+      "width": 1280,
+      "height": 930,
+      "palette": [
+        "#193a58",
+        "#fbe5c1",
+        "#8e907b",
+        "#faddb0",
+        "#e5d6b8"
+      ]
+    },
+    {
+      "id": "greek-contemporary-06",
+      "genre": "greek-contemporary",
+      "variant": 6,
+      "src": "/backgrounds/greek-contemporary-06.webp",
+      "width": 1280,
+      "height": 909,
+      "palette": [
+        "#15395e",
+        "#8aaead",
+        "#b4c2b1",
+        "#e0d6b5",
+        "#647c89"
+      ]
+    },
+    {
+      "id": "greek-contemporary-07",
+      "genre": "greek-contemporary",
+      "variant": 7,
+      "src": "/backgrounds/greek-contemporary-07.webp",
+      "width": 1280,
+      "height": 808,
+      "palette": [
+        "#324d66",
+        "#8d9389",
+        "#fae7c4",
+        "#f8d19c",
+        "#cac8b2"
+      ]
+    },
+    {
+      "id": "laiko-01",
+      "genre": "laiko",
+      "variant": 1,
+      "src": "/backgrounds/laiko-01.webp",
+      "width": 1280,
+      "height": 682,
+      "palette": [
+        "#140809",
+        "#630607",
+        "#4f200f",
+        "#95612d",
+        "#e1a955"
+      ]
+    },
+    {
+      "id": "laiko-02",
+      "genre": "laiko",
+      "variant": 2,
+      "src": "/backgrounds/laiko-02.webp",
+      "width": 1280,
+      "height": 738,
+      "palette": [
+        "#211718",
+        "#5a230a",
+        "#8d4010",
+        "#c36415",
+        "#eda848"
+      ]
+    },
+    {
+      "id": "laiko-03",
+      "genre": "laiko",
+      "variant": 3,
+      "src": "/backgrounds/laiko-03.webp",
+      "width": 1280,
+      "height": 791,
+      "palette": [
+        "#40070b",
+        "#7a080d",
+        "#6f1510",
+        "#b03e22",
+        "#dc9d63"
+      ]
+    },
+    {
+      "id": "laiko-04",
+      "genre": "laiko",
+      "variant": 4,
+      "src": "/backgrounds/laiko-04.webp",
+      "width": 1280,
+      "height": 777,
+      "palette": [
+        "#311513",
+        "#0d0b12",
+        "#c26c26",
+        "#713416",
+        "#e9a14a"
+      ]
+    },
+    {
+      "id": "laiko-05",
+      "genre": "laiko",
+      "variant": 5,
+      "src": "/backgrounds/laiko-05.webp",
+      "width": 1280,
+      "height": 777,
+      "palette": [
+        "#7d2f09",
+        "#cf741e",
+        "#121015",
+        "#37160b",
+        "#621908"
+      ]
+    },
+    {
+      "id": "laiko-06",
+      "genre": "laiko",
+      "variant": 6,
+      "src": "/backgrounds/laiko-06.webp",
+      "width": 1280,
+      "height": 764,
+      "palette": [
+        "#74210c",
+        "#321a13",
+        "#843b13",
+        "#be631f",
+        "#eca44a"
+      ]
+    },
+    {
+      "id": "laiko-07",
+      "genre": "laiko",
+      "variant": 7,
+      "src": "/backgrounds/laiko-07.webp",
+      "width": 1280,
+      "height": 675,
+      "palette": [
+        "#8f3d14",
+        "#362111",
+        "#be722a",
+        "#eba54b",
+        "#f8c879"
+      ]
+    },
+    {
+      "id": "traditional-01",
+      "genre": "traditional",
+      "variant": 1,
+      "src": "/backgrounds/traditional-01.webp",
+      "width": 1280,
+      "height": 585,
+      "palette": [
+        "#5e242a",
+        "#f2d8b7",
+        "#eccdad",
+        "#9e685c",
+        "#f6e0c1"
+      ]
+    },
+    {
+      "id": "traditional-02",
+      "genre": "traditional",
+      "variant": 2,
+      "src": "/backgrounds/traditional-02.webp",
+      "width": 1280,
+      "height": 562,
+      "palette": [
+        "#2f2d3c",
+        "#d8ba98",
+        "#68605a",
+        "#f5dec0",
+        "#f9e8ce"
+      ]
+    },
+    {
+      "id": "traditional-03",
+      "genre": "traditional",
+      "variant": 3,
+      "src": "/backgrounds/traditional-03.webp",
+      "width": 1280,
+      "height": 360,
+      "palette": [
+        "#937544",
+        "#492a1a",
+        "#d4ae6f",
+        "#ecd0a2",
+        "#f6e5c7"
+      ]
+    },
+    {
+      "id": "traditional-04",
+      "genre": "traditional",
+      "variant": 4,
+      "src": "/backgrounds/traditional-04.webp",
+      "width": 1280,
+      "height": 573,
+      "palette": [
+        "#5e3614",
+        "#cfa068",
+        "#99642a",
+        "#dfcbab",
+        "#efdbba"
+      ]
+    },
+    {
+      "id": "rock-01",
+      "genre": "rock",
+      "variant": 1,
+      "src": "/backgrounds/rock-01.webp",
+      "width": 1280,
+      "height": 552,
+      "palette": [
+        "#0d1121",
+        "#781110",
+        "#a5492e",
+        "#f4cb95",
+        "#df9d67"
+      ]
+    },
+    {
+      "id": "rock-02",
+      "genre": "rock",
+      "variant": 2,
+      "src": "/backgrounds/rock-02.webp",
+      "width": 1280,
+      "height": 528,
+      "palette": [
+        "#080e22",
+        "#ae3528",
+        "#e29759",
+        "#54111e",
+        "#6e1e27"
+      ]
+    },
+    {
+      "id": "rock-03",
+      "genre": "rock",
+      "variant": 3,
+      "src": "/backgrounds/rock-03.webp",
+      "width": 1280,
+      "height": 455,
+      "palette": [
+        "#020f28",
+        "#ce5746",
+        "#50293e",
+        "#eb9159",
+        "#90444f"
+      ]
+    },
+    {
+      "id": "rock-04",
+      "genre": "rock",
+      "variant": 4,
+      "src": "/backgrounds/rock-04.webp",
+      "width": 1280,
+      "height": 484,
+      "palette": [
+        "#050b24",
+        "#5c1828",
+        "#240c24",
+        "#dfb691",
+        "#944442"
+      ]
+    },
+    {
+      "id": "rock-05",
+      "genre": "rock",
+      "variant": 5,
+      "src": "/backgrounds/rock-05.webp",
+      "width": 1280,
+      "height": 463,
+      "palette": [
+        "#0c0e2e",
+        "#c96f54",
+        "#711a3a",
+        "#953f4e",
+        "#ddb888"
+      ]
+    },
+    {
+      "id": "dance-electronic-01",
+      "genre": "dance-electronic",
+      "variant": 1,
+      "src": "/backgrounds/dance-electronic-01.webp",
+      "width": 1280,
+      "height": 562,
+      "palette": [
+        "#121960",
+        "#c2a5a7",
+        "#551c6f",
+        "#7a4491",
+        "#9d709d"
+      ]
+    },
+    {
+      "id": "dance-electronic-02",
+      "genre": "dance-electronic",
+      "variant": 2,
+      "src": "/backgrounds/dance-electronic-02.webp",
+      "width": 1280,
+      "height": 534,
+      "palette": [
+        "#150b4b",
+        "#7a2c7f",
+        "#600e65",
+        "#a66094",
+        "#d2b0b7"
+      ]
+    },
+    {
+      "id": "dance-electronic-03",
+      "genre": "dance-electronic",
+      "variant": 3,
+      "src": "/backgrounds/dance-electronic-03.webp",
+      "width": 1280,
+      "height": 463,
+      "palette": [
+        "#100a36",
+        "#650b56",
+        "#7856a0",
+        "#5f2879",
+        "#bcb4cf"
+      ]
+    },
+    {
+      "id": "dance-electronic-04",
+      "genre": "dance-electronic",
+      "variant": 4,
+      "src": "/backgrounds/dance-electronic-04.webp",
+      "width": 1280,
+      "height": 489,
+      "palette": [
+        "#03062a",
+        "#331b63",
+        "#240842",
+        "#673d7d",
+        "#ad92a4"
+      ]
+    },
+    {
+      "id": "dance-electronic-05",
+      "genre": "dance-electronic",
+      "variant": 5,
+      "src": "/backgrounds/dance-electronic-05.webp",
+      "width": 1280,
+      "height": 466,
+      "palette": [
+        "#0d0831",
+        "#3c0d4f",
+        "#5b2371",
+        "#874b95",
+        "#ae8ab4"
+      ]
+    },
+    {
+      "id": "jazz-lounge-01",
+      "genre": "jazz-lounge",
+      "variant": 1,
+      "src": "/backgrounds/jazz-lounge-01.webp",
+      "width": 1280,
+      "height": 524,
+      "palette": [
+        "#d18126",
+        "#6b2605",
+        "#230807",
+        "#3e0c08",
+        "#5d0b10"
+      ]
+    },
+    {
+      "id": "jazz-lounge-02",
+      "genre": "jazz-lounge",
+      "variant": 2,
+      "src": "/backgrounds/jazz-lounge-02.webp",
+      "width": 1280,
+      "height": 506,
+      "palette": [
+        "#470c1c",
+        "#210816",
+        "#63171f",
+        "#df8442",
+        "#98371f"
+      ]
+    },
+    {
+      "id": "jazz-lounge-03",
+      "genre": "jazz-lounge",
+      "variant": 3,
+      "src": "/backgrounds/jazz-lounge-03.webp",
+      "width": 1280,
+      "height": 701,
+      "palette": [
+        "#3e180a",
+        "#160c09",
+        "#904a14",
+        "#eda445",
+        "#f9ce86"
+      ]
+    },
+    {
+      "id": "jazz-lounge-04",
+      "genre": "jazz-lounge",
+      "variant": 4,
+      "src": "/backgrounds/jazz-lounge-04.webp",
+      "width": 1280,
+      "height": 603,
+      "palette": [
+        "#180d0f",
+        "#3b120d",
+        "#692b0f",
+        "#a65718",
+        "#e2a44a"
+      ]
+    },
+    {
+      "id": "news-talk-01",
+      "genre": "news-talk",
+      "variant": 1,
+      "src": "/backgrounds/news-talk-01.webp",
+      "width": 1280,
+      "height": 902,
+      "palette": [
+        "#deccae",
+        "#52829f",
+        "#033f84",
+        "#0e4887",
+        "#8e5057"
+      ]
+    },
+    {
+      "id": "news-talk-02",
+      "genre": "news-talk",
+      "variant": 2,
+      "src": "/backgrounds/news-talk-02.webp",
+      "width": 1280,
+      "height": 1007,
+      "palette": [
+        "#69a1c0",
+        "#48566c",
+        "#0a3f7b",
+        "#5b86a3",
+        "#95bac4"
+      ]
+    },
+    {
+      "id": "news-talk-03",
+      "genre": "news-talk",
+      "variant": 3,
+      "src": "/backgrounds/news-talk-03.webp",
+      "width": 1280,
+      "height": 969,
+      "palette": [
+        "#eccaa0",
+        "#023b76",
+        "#3d7193",
+        "#0d3a68",
+        "#c63922"
+      ]
+    },
+    {
+      "id": "sports-01",
+      "genre": "sports",
+      "variant": 1,
+      "src": "/backgrounds/sports-01.webp",
+      "width": 1280,
+      "height": 575,
+      "palette": [
+        "#0f3843",
+        "#444d37",
+        "#6e703e",
+        "#bba263",
+        "#f7c985"
+      ]
+    },
+    {
+      "id": "sports-02",
+      "genre": "sports",
+      "variant": 2,
+      "src": "/backgrounds/sports-02.webp",
+      "width": 1280,
+      "height": 404,
+      "palette": [
+        "#1e3e49",
+        "#ab9766",
+        "#96593e",
+        "#f4dab1",
+        "#b3c9be"
+      ]
+    },
+    {
+      "id": "sports-03",
+      "genre": "sports",
+      "variant": 3,
+      "src": "/backgrounds/sports-03.webp",
+      "width": 1280,
+      "height": 651,
+      "palette": [
+        "#132b47",
+        "#6d4240",
+        "#577e94",
+        "#c4b39b",
+        "#629cb7"
+      ]
+    },
+    {
+      "id": "international-pop-01",
+      "genre": "international-pop",
+      "variant": 1,
+      "src": "/backgrounds/international-pop-01.webp",
+      "width": 1280,
+      "height": 667,
+      "palette": [
+        "#df8b80",
+        "#f9b77d",
+        "#524c66",
+        "#de9f8b",
+        "#fbd194"
+      ]
+    },
+    {
+      "id": "international-pop-02",
+      "genre": "international-pop",
+      "variant": 2,
+      "src": "/backgrounds/international-pop-02.webp",
+      "width": 1280,
+      "height": 644,
+      "palette": [
+        "#2d2d36",
+        "#a93b3c",
+        "#a77858",
+        "#399eb8",
+        "#bda96a"
+      ]
+    },
+    {
+      "id": "international-pop-03",
+      "genre": "international-pop",
+      "variant": 3,
+      "src": "/backgrounds/international-pop-03.webp",
+      "width": 1280,
+      "height": 674,
+      "palette": [
+        "#e25135",
+        "#5f3e5a",
+        "#f7902d",
+        "#8fb8b0",
+        "#f8c979"
+      ]
+    },
+    {
+      "id": "international-pop-04",
+      "genre": "international-pop",
+      "variant": 4,
+      "src": "/backgrounds/international-pop-04.webp",
+      "width": 1280,
+      "height": 457,
+      "palette": [
+        "#f18f7a",
+        "#593550",
+        "#d9675f",
+        "#f3a673",
+        "#fbca8b"
+      ]
+    },
+    {
+      "id": "international-pop-05",
+      "genre": "international-pop",
+      "variant": 5,
+      "src": "/backgrounds/international-pop-05.webp",
+      "width": 1280,
+      "height": 358,
+      "palette": [
+        "#fba447",
+        "#f7784e",
+        "#dcbb9c",
+        "#844e69",
+        "#fcca83"
+      ]
+    },
+    {
+      "id": "international-pop-06",
+      "genre": "international-pop",
+      "variant": 6,
+      "src": "/backgrounds/international-pop-06.webp",
+      "width": 1280,
+      "height": 444,
+      "palette": [
+        "#184087",
+        "#dbb17f",
+        "#aa4371",
+        "#e8d1a6",
+        "#a58486"
+      ]
+    },
+    {
+      "id": "chill-01",
+      "genre": "chill",
+      "variant": 1,
+      "src": "/backgrounds/chill-01.webp",
+      "width": 1280,
+      "height": 530,
+      "palette": [
+        "#264073",
+        "#e19d7e",
+        "#b85d5e",
+        "#d1b69d",
+        "#f0c996"
+      ]
+    },
+    {
+      "id": "chill-02",
+      "genre": "chill",
+      "variant": 2,
+      "src": "/backgrounds/chill-02.webp",
+      "width": 1280,
+      "height": 439,
+      "palette": [
+        "#2d5063",
+        "#f28a86",
+        "#c85f6d",
+        "#7d9199",
+        "#f8af8e"
+      ]
+    },
+    {
+      "id": "chill-03",
+      "genre": "chill",
+      "variant": 3,
+      "src": "/backgrounds/chill-03.webp",
+      "width": 1280,
+      "height": 336,
+      "palette": [
+        "#698382",
+        "#394b4b",
+        "#edd9bc",
+        "#eac096",
+        "#94b8ba"
+      ]
+    },
+    {
+      "id": "chill-04",
+      "genre": "chill",
+      "variant": 4,
+      "src": "/backgrounds/chill-04.webp",
+      "width": 1280,
+      "height": 330,
+      "palette": [
+        "#363934",
+        "#51a7b1",
+        "#4e726e",
+        "#c5cdc0",
+        "#bbb192"
+      ]
+    },
+    {
+      "id": "chill-05",
+      "genre": "chill",
+      "variant": 5,
+      "src": "/backgrounds/chill-05.webp",
+      "width": 1280,
+      "height": 359,
+      "palette": [
+        "#72a4a8",
+        "#365661",
+        "#efcca1",
+        "#efa65c",
+        "#9b6750"
+      ]
+    },
+    {
+      "id": "chill-06",
+      "genre": "chill",
+      "variant": 6,
+      "src": "/backgrounds/chill-06.webp",
+      "width": 1280,
+      "height": 286,
+      "palette": [
+        "#eb8c79",
+        "#b67387",
+        "#fbb575",
+        "#eba181",
+        "#fbc47e"
+      ]
+    },
+    {
+      "id": "chill-07",
+      "genre": "chill",
+      "variant": 7,
+      "src": "/backgrounds/chill-07.webp",
+      "width": 1280,
+      "height": 297,
+      "palette": [
+        "#f9ab94",
+        "#a4888e",
+        "#755c62",
+        "#f9c1a0",
+        "#c1aca7"
+      ]
+    }
+  ]
+}
