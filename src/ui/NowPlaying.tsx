@@ -8,6 +8,7 @@ import { closeOverlay, openOverlay, stationUrl } from '../app/router';
 import { Artwork } from './Artwork';
 import { ChevronDown, Heart, NextStation, Pause, Play, PrevStation, Share, Timer } from './Icons';
 import { StationRow } from './StationRow';
+import { TuningDial } from './TuningDial';
 import { useDelayedFlag, useEscape } from './hooks';
 
 /**
@@ -116,6 +117,7 @@ export function NowPlaying() {
               <span className="dot" aria-hidden="true" />
               {showConnecting ? t('player.connecting') : t('player.live')}
             </p>
+            <TuningDial active={showConnecting} />
 
             <div className="np__meta" aria-live="polite">
               {state.meta?.title ? (

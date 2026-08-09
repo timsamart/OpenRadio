@@ -8,6 +8,7 @@ import { navigate, openOverlay } from '../app/router';
 import { StationRow } from '../ui/StationRow';
 import { Artwork } from '../ui/Artwork';
 import { Search } from '../ui/Icons';
+import { greetingBucket } from '../state/sky';
 import type { Station } from '../types';
 
 /**
@@ -37,10 +38,15 @@ export function Home() {
   const popularQueue = { label: t('player.queue.popular'), ids: top.map((s) => s.id) };
   const recentQueue = { label: t('player.queue.recent'), ids: recent.map((s) => s.id) };
 
+  const greeting = greetingBucket();
+
   return (
     <>
       <header className="appbar">
-        <h1>{t('app.name')}</h1>
+        <span className="appbar__title">
+          <h1>{t('app.name')}</h1>
+          <span className="appbar__sub">{t(`home.greeting.${greeting}` as never)}</span>
+        </span>
         <span className="spacer" />
         <button
           type="button"

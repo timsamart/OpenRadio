@@ -4,6 +4,7 @@ import { loadLibrary } from '../data/library';
 import { playback, setQueue } from '../audio/engine';
 import { useStore } from '../state/store';
 import { applyDocument, usePrefs } from '../state/prefs';
+import { applySky } from '../state/sky';
 import { consumeDeepLink, href, openOverlay, router, viewFor } from './router';
 import { Home } from '../screens/Home';
 import { Discover, StationList } from '../screens/Discover';
@@ -35,6 +36,10 @@ export function App() {
     applyDocument();
     void loadLibrary();
     void loadCatalog();
+    // The sky drifts with real Athens time while the app stays open — a tab
+    // left open at breakfast should still be at golden hour by evening.
+    const skyTicker = window.setInterval(applySky, 120_000);
+    return () => window.clearInterval(skyTicker);
   }, []);
 
   // A /radio/:id deep link opens the sheet on the station — and stops there.

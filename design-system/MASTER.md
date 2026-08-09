@@ -477,3 +477,49 @@ Skeletons, not spinners, for list loads. Spinners only inside the play button.
 - [ ] No `<audio>` element instantiated inside any station component
 - [ ] Zero blocking modals before first playback
 - [ ] No new UI step added to the Play path
+
+---
+
+## 11. Addendum — "glass, Greek summer, for real" (v1.1)
+
+A deliberate, explicit revision of §2's "no gradients in the chrome" and
+"blurred artwork backdrop is exactly the failure mode" rules, requested
+directly by the product owner. The three semantic colour tokens, contrast
+floors, and Greek typographic rules above are all **unchanged and still
+binding** — this addendum only touches surface treatment and background.
+
+- **The living sky** (`src/state/sky.ts`) — a background gradient computed
+  from *real* Athens local time (six anchor points, linearly interpolated,
+  no network call), written to `--sky-top` / `--sky-mid` / `--sky-sun` /
+  `--sky-sun-y` and painted behind the limewash texture. Dark theme keeps its
+  "night swim" depth and only drifts the moon-glow position/warmth — the sky
+  is not allowed to lighten the dark theme's ground.
+- **Glass, not decoration** — `.appbar`, `.tabbar`, `.mini`, `.cat`, `.card`,
+  `.chip`, `.search-bar`, `.sheet`, `.overlay`, `.banner` are frosted
+  (`backdrop-filter: blur` + a translucent surface, gated by `@supports`
+  with the original flat `--surface`/`--bg` as the fallback). Opacity was
+  chosen high enough (66–82%) that body text's contrast against these
+  surfaces stays close to the flat-surface ratios computed in §2 regardless
+  of what the sky is doing behind them — this was spot-checked, not
+  recomputed to the same rigor as §2's tables, and should get a full contrast
+  pass before a production ship.
+  - The old rule "no gradient backgrounds" is now: *no gradients standing in
+    for content*. The sky is not decoration bolted onto a flat screen — it
+    is the one thing on screen the artwork isn't, and glass surfaces are
+    what let content stay legible in front of it.
+- **Two accent-gradient exceptions** — `.pp` and `.tbtn--main` (the primary
+  transport buttons) blend `--accent` toward `--live` at the corner, the one
+  place the two semantic voices are allowed to touch. Everywhere else keeps
+  the "accent for exactly one meaning per screen" rule from §2.1.
+- **The tuning ritual** (`src/ui/TuningDial.tsx`) — the existing
+  400ms-delayed `CONNECTING` state (§7) now shows a sweeping analog dial next
+  to the "Connecting…" text, plus one soft haptic tick via
+  `navigator.vibrate` where supported. Purely additive: the text state is
+  unchanged for a11y/i18n, the dial is `aria-hidden`, and reduced-motion
+  freezes the needle at center per §5's existing pattern for the equalizer.
+  Audio still starts on `pointerdown`/`click` before any of this renders —
+  §5's "audio and interface transitions are independent" law is untouched.
+- **The greeting** (`home.greeting.*`) — a one-line, time-of-day subtitle
+  under the app name on Home only, in the same voice as the existing
+  `home.reason.*` copy. Deliberately not added to Discover or My Radio, to
+  keep it a once-per-session touch rather than a repeated tagline.

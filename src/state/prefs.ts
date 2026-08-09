@@ -1,6 +1,7 @@
 import { createStore, useStore } from './store';
 import { loadPrefs, savePrefs, type LangPref, type Prefs, type ThemePref } from '../data/db';
 import { translator, localeOf, type MessageKey } from '../i18n';
+import { applySky } from './sky';
 
 export const prefs = createStore<Prefs>(loadPrefs());
 
@@ -16,6 +17,7 @@ export function applyDocument(): void {
   if (theme === 'system') root.removeAttribute('data-theme');
   else root.setAttribute('data-theme', theme);
   root.lang = localeOf[lang];
+  applySky();
 }
 
 export function setTheme(theme: ThemePref): void {
