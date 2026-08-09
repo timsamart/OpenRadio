@@ -6,7 +6,9 @@ import { useStore } from '../state/store';
 import { usePrefs } from '../state/prefs';
 import { closeOverlay, openOverlay, stationUrl } from '../app/router';
 import { Artwork } from './Artwork';
+import { backgroundForStation } from './backgrounds';
 import { ChevronDown, Heart, NextStation, Pause, Play, PrevStation, Share, Timer } from './Icons';
+import { PlayerBackdrop } from './PlayerBackdrop';
 import { StationRow } from './StationRow';
 import { TuningDial } from './TuningDial';
 import { useDelayedFlag, useEscape } from './hooks';
@@ -73,6 +75,8 @@ export function NowPlaying() {
   const queueSize = state.queue?.ids.length ?? 0;
   const canStep = queueSize > 1;
   const url = `${window.location.origin}${stationUrl(s.id)}`;
+  const metadataSeed = [state.meta?.artist, state.meta?.title].filter(Boolean).join('|');
+  const background = backgroundForStation(s, metadataSeed);
 
   async function share() {
     try {
@@ -88,7 +92,8 @@ export function NowPlaying() {
   }
 
   return (
-    <div className="overlay" role="dialog" aria-modal="true" aria-label={label} ref={containerRef}>
+    <div className="overlay overlay--now-playing" role="dialog" aria-modal="true" aria-label={label} ref={containerRef}>
+      <PlayerBackdrop src={background.src} />
       <div className="np">
         <div className="np__top">
           <button ref={closeRef} type="button" className="icon-btn" onClick={close} aria-label={t('player.close')}>

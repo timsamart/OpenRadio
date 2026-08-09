@@ -634,19 +634,72 @@ img { max-width: 100%; display: block; }
   margin-inline: auto;
   animation: sheet-in var(--dur-sheet) var(--ease-out);
 }
+
+.overlay.overlay--now-playing {
+  isolation: isolate;
+  overflow: hidden;
+  color: #fff;
+  background: #071620;
+  --surface-2: rgb(255 255 255 / 0.14);
+  --border: rgb(255 255 255 / 0.18);
+  --border-strong: rgb(255 255 255 / 0.62);
+  --muted: rgb(255 255 255 / 0.76);
+  --accent: #7dd9f4;
+  --accent-ink: #05212d;
+  --live: #ff87aa;
+  --focus: #ffd479;
+}
 @keyframes sheet-in {
   from { transform: translateY(6%); opacity: 0; }
   to { transform: none; opacity: 1; }
 }
 
 .np {
+  position: relative;
+  z-index: 1;
   flex: 1;
   display: flex;
   flex-direction: column;
   padding: 0 var(--s5) calc(var(--s5) + env(safe-area-inset-bottom));
   overflow-y: auto;
 }
+.np__backdrop {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #071620;
+}
+.np__backdrop::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 24%, transparent 0 18%, rgb(2 10 17 / 0.34) 58%),
+    linear-gradient(180deg, rgb(2 9 15 / 0.24) 0%, rgb(3 12 19 / 0.42) 45%, rgb(3 12 19 / 0.9) 82%, #071620 100%);
+}
+.np__backdrop-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: blur(5px) saturate(1.08) brightness(0.82);
+  transform: scale(1.045);
+  animation: backdrop-in 500ms var(--ease-out) both;
+}
+@keyframes backdrop-in {
+  from { opacity: 0; transform: scale(1.065); }
+  to { opacity: 1; transform: scale(1.045); }
+}
 .np__top { display: flex; align-items: center; min-height: 56px; }
+.overlay--now-playing .np__top .icon-btn {
+  background: rgb(3 12 19 / 0.32);
+  border: 1px solid rgb(255 255 255 / 0.14);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
 /**
  * The arch.
  *
@@ -665,7 +718,8 @@ img { max-width: 100%; display: block; }
   /* The visual mass sits low under an arch, so the monogram is nudged down to
      land optically centred rather than mathematically centred. */
   padding-top: 8%;
-  box-shadow: var(--shadow-sun);
+  border: 1px solid rgb(255 255 255 / 0.24);
+  box-shadow: 0 24px 54px -24px rgb(0 0 0 / 0.85), inset 0 1px 0 rgb(255 255 255 / 0.2);
   font-size: clamp(64px, 22vw, 84px);
 }
 .np__name {
@@ -675,6 +729,7 @@ img { max-width: 100%; display: block; }
   line-height: 1.3;
   letter-spacing: -0.01em;
   text-wrap: balance;
+  text-shadow: 0 2px 20px rgb(0 0 0 / 0.58);
 }
 .np__sub { text-align: center; font-size: 14px; color: var(--muted); margin-top: var(--s1); }
 
@@ -702,7 +757,7 @@ img { max-width: 100%; display: block; }
   padding-top: var(--s4);
   text-align: center;
 }
-.np__meta .t { font-size: 14.5px; font-weight: 500; }
+.np__meta .t { font-size: 14.5px; font-weight: 500; text-shadow: 0 1px 12px rgb(0 0 0 / 0.65); }
 .np__meta .a { font-size: 13.5px; color: var(--muted); }
 
 .transport {

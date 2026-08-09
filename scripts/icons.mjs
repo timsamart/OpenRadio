@@ -1,12 +1,10 @@
 #!/usr/bin/env node
 /**
- * Icon generation, zero dependencies.
+ * OpenRadio icon generation, zero dependencies.
  *
- * Draws the mark into an RGBA buffer and encodes PNG with node's built-in zlib,
- * so the build does not pull in an image toolchain to produce four flat files.
- *
- * The mark: Aegean blue ground, whitewash arcs radiating from a dot — a radio
- * wave and a horizon at once.
+ * The Open Dial is one continuous mnemonic: a tuning dial, an open O, and a
+ * needle that escapes the dial to become a broadcast antenna. The same source
+ * produces the favicon, install icons, Apple touch icon, and maskable artwork.
  */
 import { writeFile, mkdir } from 'node:fs/promises';
 import { deflateSync } from 'node:zlib';
@@ -15,9 +13,12 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
-const AEGEAN = [10, 110, 158];
-const DEEP = [7, 42, 62];
-const WHITEWASH = [251, 247, 239];
+const NAVY_TOP = [8, 29, 62];
+const NAVY_BOTTOM = [4, 18, 42];
+const CYAN_TOP = [39, 190, 234];
+const CYAN_BOTTOM = [18, 169, 219];
+const CORAL_TOP = [255, 118, 91];
+const CORAL_BOTTOM = [255, 87, 67];
 
 function crc32(buf) {
   let c;
@@ -44,11 +45,11 @@ function encodePng(size, pixels) {
   const ihdr = Buffer.alloc(13);
   ihdr.writeUInt32BE(size, 0);
   ihdr.writeUInt32BE(size, 4);
-  ihdr[8] = 8;   // bit depth
-  ihdr[9] = 6;   // RGBA
+  ihdr[8] = 8;
+  ihdr[9] = 6;
   const raw = Buffer.alloc((size * 4 + 1) * size);
   for (let y = 0; y < size; y++) {
-    raw[y * (size * 4 + 1)] = 0; // filter: none
+    raw[y * (size * 4 + 1)] = 0;
     pixels.copy(raw, y * (size * 4 + 1) + 1, y * size * 4, (y + 1) * size * 4);
   }
   return Buffer.concat([
@@ -59,41 +60,63 @@ function encodePng(size, pixels) {
   ]);
 }
 
-/** @param {number} size @param {number} inset 0 = full bleed, 0.1 = maskable safe zone */
+function lerpColor(a, b, t) {
+  return a.map((v, i) => v + (b[i] - v) * t);
+}
+
+function distanceToSegment(x, y, ax, ay, bx, by) {
+  const abx = bx - ax;
+  const aby = by - ay;
+  const t = Math.max(0, Math.min(1, ((x - ax) * abx + (y - ay) * aby) / (abx * abx + aby * aby)));
+  return Math.hypot(x - (ax + abx * t), y - (ay + aby * t));
+}
+
+/** Sample one normalized point. inset scales the mark, never the full-bleed ground. */
+function sample(u, v, inset) {
+  const background = lerpColor(NAVY_TOP, NAVY_BOTTOM, v);
+  const scale = 1 - inset;
+  const x = (u - 0.5) / scale + 0.5;
+  const y = (v - 0.5) / scale + 0.5;
+
+  const cx = 0.47;
+  const cy = 0.54;
+  const ringR = 0.32;
+  const ringW = 0.075;
+  const angle = Math.atan2(y - cy, x - cx);
+  const inGap = angle > -1.23 && angle < -0.38;
+  const onRing = !inGap && Math.abs(Math.hypot(x - cx, y - cy) - ringR) < ringW / 2;
+
+  const tipX = 0.79;
+  const tipY = 0.20;
+  const onNeedle = distanceToSegment(x, y, cx, cy, tipX, tipY) < 0.023;
+  const onPivot = Math.hypot(x - cx, y - cy) < 0.046;
+  const onTip = Math.hypot(x - tipX, y - tipY) < 0.018;
+
+  const signalDistance = Math.hypot(x - tipX, y - tipY);
+  const signalAngle = Math.atan2(y - tipY, x - tipX);
+  const onSignal = signalAngle > -1.72 && signalAngle < 0.55 && Math.abs(signalDistance - 0.061) < 0.010;
+
+  if (onNeedle || onPivot || onTip || onSignal) return lerpColor(CORAL_TOP, CORAL_BOTTOM, v);
+  if (onRing) return lerpColor(CYAN_TOP, CYAN_BOTTOM, v);
+  return background;
+}
+
+/** @param {number} size @param {number} inset 0 = regular, 0.18 = maskable safe zone */
 function draw(size, inset) {
   const px = Buffer.alloc(size * size * 4);
-  const r = size / 2;
-  const originX = size * 0.32;
-  const originY = size * 0.74;
-  const scale = 1 - inset;
-
-  // Three arcs plus the emitter dot, in units of the icon's half-width.
-  const rings = [0.34, 0.52, 0.70].map((v) => v * r * scale);
-  const ringW = Math.max(2, size * 0.055 * scale);
-  const dotR = Math.max(3, size * 0.055 * scale);
+  const samples = [[0.25, 0.25], [0.75, 0.25], [0.25, 0.75], [0.75, 0.75]];
 
   for (let y = 0; y < size; y++) {
     for (let x = 0; x < size; x++) {
+      const color = [0, 0, 0];
+      for (const [sx, sy] of samples) {
+        const sampled = sample((x + sx) / size, (y + sy) / size, inset);
+        for (let channel = 0; channel < 3; channel++) color[channel] += sampled[channel];
+      }
       const i = (y * size + x) * 4;
-      // Rounded-square ground with a soft vertical shift from Aegean to deep sea.
-      const t = y / size;
-      let color = [
-        Math.round(AEGEAN[0] + (DEEP[0] - AEGEAN[0]) * t),
-        Math.round(AEGEAN[1] + (DEEP[1] - AEGEAN[1]) * t),
-        Math.round(AEGEAN[2] + (DEEP[2] - AEGEAN[2]) * t),
-      ];
-
-      const d = Math.hypot(x - originX, y - originY);
-      const angle = Math.atan2(originY - y, x - originX);
-      // Only the upper-right quadrant sweep: a wave leaving the transmitter.
-      const inSweep = angle > -0.15 && angle < Math.PI / 2 + 0.15;
-
-      if (d < dotR) color = WHITEWASH;
-      else if (inSweep && rings.some((rr) => Math.abs(d - rr) < ringW / 2)) color = WHITEWASH;
-
-      px[i] = color[0];
-      px[i + 1] = color[1];
-      px[i + 2] = color[2];
+      px[i] = Math.round(color[0] / samples.length);
+      px[i + 1] = Math.round(color[1] / samples.length);
+      px[i + 2] = Math.round(color[2] / samples.length);
       px[i + 3] = 255;
     }
   }
@@ -101,16 +124,16 @@ function draw(size, inset) {
 }
 
 const SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="OpenRadio">
-  <defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#0A6E9E"/><stop offset="1" stop-color="#072A3E"/>
-  </linearGradient></defs>
-  <rect width="512" height="512" rx="112" fill="url(#sea)"/>
-  <g fill="none" stroke="#FBF7EF" stroke-width="26" stroke-linecap="round">
-    <path d="M164 379a88 88 0 0 1 88-88"/>
-    <path d="M164 379a134 134 0 0 1 134-134"/>
-    <path d="M164 379a180 180 0 0 1 180-180"/>
-  </g>
-  <circle cx="164" cy="379" r="27" fill="#FBF7EF"/>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#081D3E"/><stop offset="1" stop-color="#04122A"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#27BEEA"/><stop offset="1" stop-color="#12A9DB"/></linearGradient>
+    <linearGradient id="coral" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FF765B"/><stop offset="1" stop-color="#FF5743"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#navy)"/>
+  <path d="M298 115A164 164 0 1 0 392 204" fill="none" stroke="url(#cyan)" stroke-width="38" stroke-linecap="round"/>
+  <path d="M241 276L404 102" fill="none" stroke="url(#coral)" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="241" cy="276" r="24" fill="url(#coral)"/>
+  <path d="M391 71A32 32 0 0 1 435 117" fill="none" stroke="url(#coral)" stroke-width="10" stroke-linecap="round"/>
 </svg>
 `;
 
@@ -122,14 +145,14 @@ async function main() {
   const jobs = [
     ['icon-192.png', 192, 0],
     ['icon-512.png', 512, 0],
-    ['icon-maskable-512.png', 512, 0.18], // safe zone for adaptive masks
+    ['icon-maskable-512.png', 512, 0.18],
     ['apple-touch-icon.png', 180, 0],
   ];
   for (const [name, size, inset] of jobs) {
     await writeFile(resolve(out, name), encodePng(size, draw(size, inset)));
     console.log(`  ${name} ${size}×${size}`);
   }
-  console.log('✔ icons written to public/');
+  console.log('✔ Open Dial icons written to public/');
 }
 
 main().catch((err) => {
