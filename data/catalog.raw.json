@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T09:51:41.674Z",
+  "generated": "2026-10-04T10:34:34.916Z",
   "stations": [
     {
       "id": "zeppelin-106-7",
@@ -26,7 +26,7 @@
           "priority": 1
         }
       ],
-      "popularity": 26396,
+      "popularity": 26417,
       "featured": false
     },
     {
@@ -50,7 +50,7 @@
           "priority": 1
         }
       ],
-      "popularity": 17218,
+      "popularity": 17242,
       "featured": false
     },
     {
@@ -208,7 +208,7 @@
           "priority": 2
         }
       ],
-      "popularity": 4843,
+      "popularity": 4846,
       "featured": true
     },
     {
@@ -232,7 +232,7 @@
           "priority": 1
         }
       ],
-      "popularity": 4411,
+      "popularity": 4417,
       "featured": false
     },
     {
@@ -256,7 +256,7 @@
           "priority": 1
         }
       ],
-      "popularity": 4029,
+      "popularity": 4038,
       "featured": false
     },
     {
@@ -280,7 +280,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3692,
+      "popularity": 3695,
       "featured": false
     },
     {
@@ -504,7 +504,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2437,
+      "popularity": 2440,
       "featured": false
     },
     {
@@ -552,7 +552,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2270,
+      "popularity": 2273,
       "featured": false
     },
     {
@@ -630,7 +630,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1991,
+      "popularity": 1994,
       "featured": false
     },
     {
@@ -660,7 +660,7 @@
           "priority": 2
         }
       ],
-      "popularity": 1981,
+      "popularity": 1984,
       "featured": false
     },
     {
@@ -898,31 +898,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1524,
-      "featured": false
-    },
-    {
-      "id": "πειραικηεκκλησια",
-      "name": "Πειραϊκή Εκκλησία",
-      "name_el": "Πειραϊκή Εκκλησία",
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "greek-pop"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "https://www.peradio.com/",
-      "streams": [
-        {
-          "url": "https://impradio.bytemasters.gr/8002/stream",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 1474,
+      "popularity": 1527,
       "featured": false
     },
     {
@@ -943,6 +919,30 @@
           "url": "https://cast.magicstreams.gr/sc/psyndora/stream",
           "codec": "mp3",
           "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 1477,
+      "featured": false
+    },
+    {
+      "id": "πειραικηεκκλησια",
+      "name": "Πειραϊκή Εκκλησία",
+      "name_el": "Πειραϊκή Εκκλησία",
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "greek-pop"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "https://www.peradio.com/",
+      "streams": [
+        {
+          "url": "https://impradio.bytemasters.gr/8002/stream",
+          "codec": "mp3",
+          "bitrate": 192,
           "priority": 1
         }
       ],
@@ -1001,7 +1001,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1323,
+      "popularity": 1329,
       "featured": false
     },
     {
@@ -1027,6 +1027,36 @@
           "codec": "mp3",
           "bitrate": 192,
           "priority": 1
+        }
+      ],
+      "popularity": 1276,
+      "featured": false
+    },
+    {
+      "id": "fly-104",
+      "name": "FLY 104",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://fly104.gr/images/folder/logos/mobile-logos/logomobile.png",
+      "homepage": "https://fly104.gr/el/",
+      "streams": [
+        {
+          "url": "https://imagine2.radioca.st/;",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        },
+        {
+          "url": "https://imagine2.radioca.st/;stream.nsv",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 2
         }
       ],
       "popularity": 1273,
@@ -1060,36 +1090,6 @@
         }
       ],
       "popularity": 1265,
-      "featured": false
-    },
-    {
-      "id": "fly-104",
-      "name": "FLY 104",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://fly104.gr/images/folder/logos/mobile-logos/logomobile.png",
-      "homepage": "https://fly104.gr/el/",
-      "streams": [
-        {
-          "url": "https://imagine2.radioca.st/;",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        },
-        {
-          "url": "https://imagine2.radioca.st/;stream.nsv",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 2
-        }
-      ],
-      "popularity": 1264,
       "featured": false
     },
     {
@@ -1236,7 +1236,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1019,
+      "popularity": 1022,
       "featured": false
     },
     {
@@ -1263,7 +1263,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1000,
+      "popularity": 1003,
       "featured": false
     },
     {
@@ -1387,6 +1387,34 @@
       "featured": false
     },
     {
+      "id": "μαχη-99-8",
+      "name": "Μάχη",
+      "name_el": "Μάχη",
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "news-talk",
+        "greek-pop"
+      ],
+      "frequency": {
+        "value": 99.8,
+        "unit": "MHz"
+      },
+      "logo": "https://resources.live24.gr/resources/images/stations/514bb3ec-475d-46bd-9059-879e50b5fecf.jpg",
+      "homepage": "https://maxhfm.gr/",
+      "streams": [
+        {
+          "url": "https://maxhfm.streams.gr/ic/maxhfm/stream",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 840,
+      "featured": false
+    },
+    {
       "id": "era-deftero-103-7",
       "name": "ERA-DEFTERO",
       "name_el": null,
@@ -1414,34 +1442,6 @@
       "featured": false
     },
     {
-      "id": "μαχη-99-8",
-      "name": "Μάχη",
-      "name_el": "Μάχη",
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "news-talk",
-        "greek-pop"
-      ],
-      "frequency": {
-        "value": 99.8,
-        "unit": "MHz"
-      },
-      "logo": "https://resources.live24.gr/resources/images/stations/514bb3ec-475d-46bd-9059-879e50b5fecf.jpg",
-      "homepage": "https://maxhfm.gr/",
-      "streams": [
-        {
-          "url": "https://maxhfm.streams.gr/ic/maxhfm/stream",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        }
-      ],
-      "popularity": 834,
-      "featured": false
-    },
-    {
       "id": "creta-tv",
       "name": "Creta TV",
       "name_el": null,
@@ -1463,6 +1463,30 @@
         }
       ],
       "popularity": 833,
+      "featured": false
+    },
+    {
+      "id": "2o-laika",
+      "name": "2o laika",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "laiko"
+      ],
+      "frequency": null,
+      "logo": "https://www.ertecho.com/wp-content/uploads/2023/08/cropped-ertecho-favicon-180x180.png",
+      "homepage": "https://webradio.ert.gr/deftero-laika/",
+      "streams": [
+        {
+          "url": "https://radiostreaming.ert.gr/ert-talaika",
+          "codec": "mp3",
+          "bitrate": 256,
+          "priority": 1
+        }
+      ],
+      "popularity": 788,
       "featured": false
     },
     {
@@ -1490,30 +1514,6 @@
       "featured": false
     },
     {
-      "id": "2o-laika",
-      "name": "2o laika",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "laiko"
-      ],
-      "frequency": null,
-      "logo": "https://www.ertecho.com/wp-content/uploads/2023/08/cropped-ertecho-favicon-180x180.png",
-      "homepage": "https://webradio.ert.gr/deftero-laika/",
-      "streams": [
-        {
-          "url": "https://radiostreaming.ert.gr/ert-talaika",
-          "codec": "mp3",
-          "bitrate": 256,
-          "priority": 1
-        }
-      ],
-      "popularity": 779,
-      "featured": false
-    },
-    {
       "id": "electronica-vibes-pirate-radio-gr",
       "name": "Electronica Vibes - Pirate Radio GR",
       "name_el": null,
@@ -1534,7 +1534,7 @@
           "priority": 1
         }
       ],
-      "popularity": 770,
+      "popularity": 773,
       "featured": false
     },
     {
@@ -1660,7 +1660,7 @@
           "priority": 1
         }
       ],
-      "popularity": 731,
+      "popularity": 734,
       "featured": false
     },
     {
@@ -1963,7 +1963,7 @@
           "priority": 1
         }
       ],
-      "popularity": 538,
+      "popularity": 541,
       "featured": false
     },
     {
@@ -2827,7 +2827,7 @@
           "priority": 1
         }
       ],
-      "popularity": 279,
+      "popularity": 282,
       "featured": false
     },
     {
@@ -2926,7 +2926,7 @@
           "priority": 1
         }
       ],
-      "popularity": 249,
+      "popularity": 252,
       "featured": false
     },
     {
@@ -2950,7 +2950,7 @@
           "priority": 1
         }
       ],
-      "popularity": 246,
+      "popularity": 249,
       "featured": false
     },
     {
@@ -3236,36 +3236,6 @@
       "featured": false
     },
     {
-      "id": "best",
-      "name": "Best",
-      "name_el": null,
-      "aliases": [
-        "Best Radio",
-        "Best FM"
-      ],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": {
-        "value": 92.6,
-        "unit": "MHz"
-      },
-      "logo": "https://www.atticaradios.gr/Content/ImagesDatabase/p/crop/both/be/beacb687958a453286a9bc7d07333915.svg?quality=85&404=default&v=4",
-      "homepage": "https://www.atticaradios.gr/best926/listenlive/",
-      "streams": [
-        {
-          "url": "https://best.live24.gr/best1222",
-          "codec": "mp3",
-          "bitrate": 256,
-          "priority": 1
-        }
-      ],
-      "popularity": 214,
-      "featured": false
-    },
-    {
       "id": "en-lefko",
       "name": "En Lefko",
       "name_el": "Εν Λευκώ",
@@ -3298,8 +3268,38 @@
           "priority": 2
         }
       ],
-      "popularity": 213,
+      "popularity": 216,
       "featured": true
+    },
+    {
+      "id": "best",
+      "name": "Best",
+      "name_el": null,
+      "aliases": [
+        "Best Radio",
+        "Best FM"
+      ],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "international"
+      ],
+      "frequency": {
+        "value": 92.6,
+        "unit": "MHz"
+      },
+      "logo": "https://www.atticaradios.gr/Content/ImagesDatabase/p/crop/both/be/beacb687958a453286a9bc7d07333915.svg?quality=85&404=default&v=4",
+      "homepage": "https://www.atticaradios.gr/best926/listenlive/",
+      "streams": [
+        {
+          "url": "https://best.live24.gr/best1222",
+          "codec": "mp3",
+          "bitrate": 256,
+          "priority": 1
+        }
+      ],
+      "popularity": 214,
+      "featured": false
     },
     {
       "id": "radio-galaxy-99",
