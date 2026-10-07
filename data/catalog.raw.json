@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T11:15:55.272Z",
+  "generated": "2026-10-07T11:03:58.508Z",
   "stations": [
     {
       "id": "zeppelin-106-7",
@@ -26,7 +26,7 @@
           "priority": 1
         }
       ],
-      "popularity": 26436,
+      "popularity": 26448,
       "featured": false
     },
     {
@@ -50,7 +50,7 @@
           "priority": 1
         }
       ],
-      "popularity": 17246,
+      "popularity": 17252,
       "featured": false
     },
     {
@@ -79,7 +79,7 @@
           "priority": 1
         }
       ],
-      "popularity": 6061,
+      "popularity": 6067,
       "featured": false
     },
     {
@@ -136,7 +136,7 @@
           "priority": 2
         }
       ],
-      "popularity": 4942,
+      "popularity": 4945,
       "featured": false
     },
     {
@@ -172,7 +172,7 @@
           "priority": 2
         }
       ],
-      "popularity": 4847,
+      "popularity": 4850,
       "featured": true
     },
     {
@@ -196,7 +196,7 @@
           "priority": 1
         }
       ],
-      "popularity": 4060,
+      "popularity": 4066,
       "featured": false
     },
     {
@@ -220,7 +220,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3692,
+      "popularity": 3698,
       "featured": false
     },
     {
@@ -247,7 +247,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3148,
+      "popularity": 3160,
       "featured": false
     },
     {
@@ -302,7 +302,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3053,
+      "popularity": 3059,
       "featured": false
     },
     {
@@ -402,7 +402,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2552,
+      "popularity": 2555,
       "featured": false
     },
     {
@@ -453,7 +453,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2362,
+      "popularity": 2368,
       "featured": false
     },
     {
@@ -477,7 +477,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2274,
+      "popularity": 2277,
       "featured": false
     },
     {
@@ -504,7 +504,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2139,
+      "popularity": 2145,
       "featured": false
     },
     {
@@ -528,7 +528,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2090,
+      "popularity": 2096,
       "featured": false
     },
     {
@@ -657,7 +657,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1805,
+      "popularity": 1808,
       "featured": false
     },
     {
@@ -847,7 +847,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1483,
+      "popularity": 1486,
       "featured": false
     },
     {
@@ -898,7 +898,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1328,
+      "popularity": 1337,
       "featured": false
     },
     {
@@ -928,7 +928,7 @@
           "priority": 2
         }
       ],
-      "popularity": 1273,
+      "popularity": 1276,
       "featured": false
     },
     {
@@ -986,6 +986,30 @@
       "featured": false
     },
     {
+      "id": "radio-art-roots-reggae",
+      "name": "Radio Art - Roots Reggae",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.radioart.com/images/channels/Roots_reggae.jpg",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://live.radioart.com/fRoots_reggae.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 1184,
+      "featured": false
+    },
+    {
       "id": "radio-art-mellow-piano-jazz",
       "name": "Radio Art - Mellow Piano Jazz",
       "name_el": null,
@@ -1007,30 +1031,6 @@
         }
       ],
       "popularity": 1182,
-      "featured": false
-    },
-    {
-      "id": "radio-art-roots-reggae",
-      "name": "Radio Art - Roots Reggae",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/images/channels/Roots_reggae.jpg",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fRoots_reggae.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 1181,
       "featured": false
     },
     {
@@ -1106,7 +1106,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1075,
+      "popularity": 1078,
       "featured": false
     },
     {
@@ -1356,7 +1356,7 @@
           "priority": 1
         }
       ],
-      "popularity": 849,
+      "popularity": 855,
       "featured": false
     },
     {
@@ -1458,7 +1458,7 @@
           "priority": 1
         }
       ],
-      "popularity": 791,
+      "popularity": 794,
       "featured": false
     },
     {
@@ -1784,6 +1784,30 @@
       "featured": false
     },
     {
+      "id": "rock-and-blues-athens",
+      "name": "Rock and Blues Athens",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://resources.live24.gr/resources/images/stations/bb59ed73-801d-473b-84d6-da8368f769b3.png",
+      "homepage": "http://www.facebook.com/rocknblues.athens/?ref=br_rs",
+      "streams": [
+        {
+          "url": "https://tls-chrome.live24.gr/3253?http://78.129.132.7:35663/",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 675,
+      "featured": false
+    },
+    {
       "id": "bar-legend-radio",
       "name": "Bar Legend Radio",
       "name_el": null,
@@ -1805,30 +1829,6 @@
         }
       ],
       "popularity": 673,
-      "featured": false
-    },
-    {
-      "id": "rock-and-blues-athens",
-      "name": "Rock and Blues Athens",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://resources.live24.gr/resources/images/stations/bb59ed73-801d-473b-84d6-da8368f769b3.png",
-      "homepage": "http://www.facebook.com/rocknblues.athens/?ref=br_rs",
-      "streams": [
-        {
-          "url": "https://tls-chrome.live24.gr/3253?http://78.129.132.7:35663/",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 672,
       "featured": false
     },
     {
@@ -1857,7 +1857,7 @@
           "priority": 1
         }
       ],
-      "popularity": 651,
+      "popularity": 654,
       "featured": false
     },
     {
@@ -2095,7 +2095,7 @@
           "priority": 1
         }
       ],
-      "popularity": 471,
+      "popularity": 477,
       "featured": false
     },
     {
@@ -2119,7 +2119,7 @@
           "priority": 1
         }
       ],
-      "popularity": 467,
+      "popularity": 470,
       "featured": false
     },
     {
@@ -2245,7 +2245,7 @@
           "priority": 1
         }
       ],
-      "popularity": 426,
+      "popularity": 429,
       "featured": false
     },
     {
@@ -2300,6 +2300,33 @@
       "featured": false
     },
     {
+      "id": "μελωδια-99-2",
+      "name": "Μελωδία",
+      "name_el": "Μελωδία",
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "greek-pop"
+      ],
+      "frequency": {
+        "value": 99.2,
+        "unit": "MHz"
+      },
+      "logo": "https://mm.aiircdn.com/632/5e185a3184ae6.png",
+      "homepage": "https://www.melodia.gr/",
+      "streams": [
+        {
+          "url": "https://stream.rcs.revma.com/8tdwa6ez1duvv",
+          "codec": "aac",
+          "bitrate": 0,
+          "priority": 1
+        }
+      ],
+      "popularity": 394,
+      "featured": false
+    },
+    {
       "id": "2000-fm-99-8-99-8",
       "name": "2000 FM 99.8",
       "name_el": null,
@@ -2324,33 +2351,6 @@
         }
       ],
       "popularity": 392,
-      "featured": false
-    },
-    {
-      "id": "μελωδια-99-2",
-      "name": "Μελωδία",
-      "name_el": "Μελωδία",
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "greek-pop"
-      ],
-      "frequency": {
-        "value": 99.2,
-        "unit": "MHz"
-      },
-      "logo": "https://mm.aiircdn.com/632/5e185a3184ae6.png",
-      "homepage": "https://www.melodia.gr/",
-      "streams": [
-        {
-          "url": "https://stream.rcs.revma.com/8tdwa6ez1duvv",
-          "codec": "aac",
-          "bitrate": 0,
-          "priority": 1
-        }
-      ],
-      "popularity": 391,
       "featured": false
     },
     {
@@ -2911,7 +2911,7 @@
           "priority": 1
         }
       ],
-      "popularity": 255,
+      "popularity": 258,
       "featured": false
     },
     {
@@ -2964,6 +2964,30 @@
       "featured": false
     },
     {
+      "id": "905rock",
+      "name": "905ROCK",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Larissa",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://905rock.gr/wp-content/uploads/2015/08/101rock_tran-300x126.png",
+      "homepage": "https://905rock.gr/",
+      "streams": [
+        {
+          "url": "https://sh.onweb.gr:8905/stream",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 248,
+      "featured": false
+    },
+    {
       "id": "radio-art-guitar-for-sleep",
       "name": "Radio Art - Guitar for Sleep",
       "name_el": null,
@@ -2985,30 +3009,6 @@
         }
       ],
       "popularity": 247,
-      "featured": false
-    },
-    {
-      "id": "905rock",
-      "name": "905ROCK",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Larissa",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://905rock.gr/wp-content/uploads/2015/08/101rock_tran-300x126.png",
-      "homepage": "https://905rock.gr/",
-      "streams": [
-        {
-          "url": "https://sh.onweb.gr:8905/stream",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 245,
       "featured": false
     },
     {
@@ -3134,7 +3134,7 @@
           "priority": 1
         }
       ],
-      "popularity": 227,
+      "popularity": 239,
       "featured": false
     },
     {
@@ -3161,7 +3161,7 @@
           "priority": 1
         }
       ],
-      "popularity": 227,
+      "popularity": 230,
       "featured": false
     },
     {
@@ -3221,7 +3221,7 @@
           "priority": 2
         }
       ],
-      "popularity": 217,
+      "popularity": 220,
       "featured": true
     },
     {
