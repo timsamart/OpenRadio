@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T11:21:22.611Z",
+  "generated": "2026-10-09T11:19:12.178Z",
   "stations": [
     {
       "id": "zeppelin-106-7",
@@ -26,7 +26,7 @@
           "priority": 1
         }
       ],
-      "popularity": 26472,
+      "popularity": 26502,
       "featured": false
     },
     {
@@ -50,7 +50,7 @@
           "priority": 1
         }
       ],
-      "popularity": 17252,
+      "popularity": 17261,
       "featured": false
     },
     {
@@ -79,7 +79,7 @@
           "priority": 1
         }
       ],
-      "popularity": 6073,
+      "popularity": 6076,
       "featured": false
     },
     {
@@ -172,7 +172,7 @@
           "priority": 2
         }
       ],
-      "popularity": 4853,
+      "popularity": 4859,
       "featured": true
     },
     {
@@ -196,7 +196,7 @@
           "priority": 1
         }
       ],
-      "popularity": 4075,
+      "popularity": 4081,
       "featured": false
     },
     {
@@ -247,7 +247,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3163,
+      "popularity": 3175,
       "featured": false
     },
     {
@@ -278,7 +278,7 @@
           "priority": 2
         }
       ],
-      "popularity": 3087,
+      "popularity": 3093,
       "featured": false
     },
     {
@@ -302,7 +302,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3071,
+      "popularity": 3077,
       "featured": false
     },
     {
@@ -402,7 +402,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2555,
+      "popularity": 2558,
       "featured": false
     },
     {
@@ -453,7 +453,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2368,
+      "popularity": 2371,
       "featured": false
     },
     {
@@ -477,7 +477,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2277,
+      "popularity": 2280,
       "featured": false
     },
     {
@@ -504,7 +504,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2154,
+      "popularity": 2157,
       "featured": false
     },
     {
@@ -528,7 +528,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2096,
+      "popularity": 2099,
       "featured": false
     },
     {
@@ -685,7 +685,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1784,
+      "popularity": 1787,
       "featured": false
     },
     {
@@ -847,7 +847,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1486,
+      "popularity": 1489,
       "featured": false
     },
     {
@@ -898,7 +898,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1346,
+      "popularity": 1355,
       "featured": false
     },
     {
@@ -928,7 +928,7 @@
           "priority": 2
         }
       ],
-      "popularity": 1279,
+      "popularity": 1282,
       "featured": false
     },
     {
@@ -986,6 +986,30 @@
       "featured": false
     },
     {
+      "id": "radio-art-mellow-piano-jazz",
+      "name": "Radio Art - Mellow Piano Jazz",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.radioart.com/favicon.ico",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://live.radioart.com/fMellow_piano_jazz.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 1185,
+      "featured": false
+    },
+    {
       "id": "radio-art-roots-reggae",
       "name": "Radio Art - Roots Reggae",
       "name_el": null,
@@ -1007,30 +1031,6 @@
         }
       ],
       "popularity": 1184,
-      "featured": false
-    },
-    {
-      "id": "radio-art-mellow-piano-jazz",
-      "name": "Radio Art - Mellow Piano Jazz",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/favicon.ico",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fMellow_piano_jazz.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 1182,
       "featured": false
     },
     {
@@ -1280,7 +1280,7 @@
           "priority": 1
         }
       ],
-      "popularity": 935,
+      "popularity": 938,
       "featured": false
     },
     {
@@ -1304,7 +1304,7 @@
           "priority": 1
         }
       ],
-      "popularity": 916,
+      "popularity": 919,
       "featured": false
     },
     {
@@ -1356,7 +1356,7 @@
           "priority": 1
         }
       ],
-      "popularity": 858,
+      "popularity": 861,
       "featured": false
     },
     {
@@ -1458,7 +1458,7 @@
           "priority": 1
         }
       ],
-      "popularity": 794,
+      "popularity": 797,
       "featured": false
     },
     {
@@ -1510,6 +1510,30 @@
       "featured": false
     },
     {
+      "id": "galaxy-music-the-rock-metal-ballads",
+      "name": "Galaxy Music The Rock Metal Ballads",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Thessaloniki",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.wix.com/favicon.ico",
+      "homepage": "https://alexiou.wixsite.com/radiogalaxy",
+      "streams": [
+        {
+          "url": "https://stream-52.zeno.fm/fe300c1tpuhvv?zs=ecFJNTpkQXKgNdGJebEOUQ",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 771,
+      "featured": false
+    },
+    {
       "id": "mousikos-98-6",
       "name": "Mousikos",
       "name_el": null,
@@ -1534,30 +1558,6 @@
         }
       ],
       "popularity": 770,
-      "featured": false
-    },
-    {
-      "id": "galaxy-music-the-rock-metal-ballads",
-      "name": "Galaxy Music The Rock Metal Ballads",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Thessaloniki",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.wix.com/favicon.ico",
-      "homepage": "https://alexiou.wixsite.com/radiogalaxy",
-      "streams": [
-        {
-          "url": "https://stream-52.zeno.fm/fe300c1tpuhvv?zs=ecFJNTpkQXKgNdGJebEOUQ",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 768,
       "featured": false
     },
     {
@@ -1635,7 +1635,7 @@
           "priority": 1
         }
       ],
-      "popularity": 747,
+      "popularity": 750,
       "featured": false
     },
     {
@@ -2095,7 +2095,7 @@
           "priority": 1
         }
       ],
-      "popularity": 480,
+      "popularity": 483,
       "featured": false
     },
     {
@@ -2198,30 +2198,6 @@
       "featured": false
     },
     {
-      "id": "deep",
-      "name": "Deep",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "http://othersite.link/deepwebradio/",
-      "streams": [
-        {
-          "url": "https://i3.streams.ovh/ic/deepradio1/stream?",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        }
-      ],
-      "popularity": 435,
-      "featured": false
-    },
-    {
       "id": "σκαι-100-3",
       "name": "ΣΚΑΪ",
       "name_el": "ΣΚΑΪ",
@@ -2245,7 +2221,31 @@
           "priority": 1
         }
       ],
-      "popularity": 432,
+      "popularity": 438,
+      "featured": false
+    },
+    {
+      "id": "deep",
+      "name": "Deep",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "http://othersite.link/deepwebradio/",
+      "streams": [
+        {
+          "url": "https://i3.streams.ovh/ic/deepradio1/stream?",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 435,
       "featured": false
     },
     {
@@ -2622,7 +2622,7 @@
           "priority": 1
         }
       ],
-      "popularity": 323,
+      "popularity": 326,
       "featured": false
     },
     {
@@ -2789,6 +2789,32 @@
       "featured": false
     },
     {
+      "id": "real-fm",
+      "name": "Real FM",
+      "name_el": null,
+      "aliases": [
+        "Real"
+      ],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "news-talk"
+      ],
+      "frequency": null,
+      "logo": "https://scontent.fsof11-1.fna.fbcdn.net/v/t39.30808-6/273325286_462489105237776_3423395210252952332_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2UM0t5mJNhEAX87X1wX&_nc_ht=scontent.fsof11-1.fna&oh=00_AfA0fEWGclDbECf5McRifi6-ZCWa-s_WhL1qvqX8s2OR0w&oe=63DC6741",
+      "homepage": "https://www.real.gr/",
+      "streams": [
+        {
+          "url": "https://realfm.live24.gr/realfm",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 292,
+      "featured": false
+    },
+    {
       "id": "status-107-7",
       "name": "Status",
       "name_el": null,
@@ -2814,32 +2840,6 @@
         }
       ],
       "popularity": 290,
-      "featured": false
-    },
-    {
-      "id": "real-fm",
-      "name": "Real FM",
-      "name_el": null,
-      "aliases": [
-        "Real"
-      ],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "news-talk"
-      ],
-      "frequency": null,
-      "logo": "https://scontent.fsof11-1.fna.fbcdn.net/v/t39.30808-6/273325286_462489105237776_3423395210252952332_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2UM0t5mJNhEAX87X1wX&_nc_ht=scontent.fsof11-1.fna&oh=00_AfA0fEWGclDbECf5McRifi6-ZCWa-s_WhL1qvqX8s2OR0w&oe=63DC6741",
-      "homepage": "https://www.real.gr/",
-      "streams": [
-        {
-          "url": "https://realfm.live24.gr/realfm",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 289,
       "featured": false
     },
     {
