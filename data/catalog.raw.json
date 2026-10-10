@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T11:19:12.178Z",
+  "generated": "2026-10-10T10:36:07.482Z",
   "stations": [
     {
       "id": "zeppelin-106-7",
@@ -26,7 +26,7 @@
           "priority": 1
         }
       ],
-      "popularity": 26502,
+      "popularity": 26514,
       "featured": false
     },
     {
@@ -50,7 +50,7 @@
           "priority": 1
         }
       ],
-      "popularity": 17261,
+      "popularity": 17285,
       "featured": false
     },
     {
@@ -103,7 +103,7 @@
           "priority": 1
         }
       ],
-      "popularity": 5670,
+      "popularity": 5673,
       "featured": false
     },
     {
@@ -136,7 +136,7 @@
           "priority": 2
         }
       ],
-      "popularity": 4951,
+      "popularity": 4954,
       "featured": false
     },
     {
@@ -196,7 +196,7 @@
           "priority": 1
         }
       ],
-      "popularity": 4081,
+      "popularity": 4090,
       "featured": false
     },
     {
@@ -220,7 +220,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3704,
+      "popularity": 3710,
       "featured": false
     },
     {
@@ -247,7 +247,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3175,
+      "popularity": 3181,
       "featured": false
     },
     {
@@ -302,7 +302,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3077,
+      "popularity": 3083,
       "featured": false
     },
     {
@@ -528,7 +528,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2099,
+      "popularity": 2108,
       "featured": false
     },
     {
@@ -558,7 +558,7 @@
           "priority": 2
         }
       ],
-      "popularity": 2002,
+      "popularity": 2011,
       "featured": false
     },
     {
@@ -685,7 +685,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1787,
+      "popularity": 1790,
       "featured": false
     },
     {
@@ -823,7 +823,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1540,
+      "popularity": 1543,
       "featured": false
     },
     {
@@ -847,7 +847,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1489,
+      "popularity": 1492,
       "featured": false
     },
     {
@@ -928,7 +928,7 @@
           "priority": 2
         }
       ],
-      "popularity": 1282,
+      "popularity": 1285,
       "featured": false
     },
     {
@@ -958,7 +958,7 @@
           "priority": 2
         }
       ],
-      "popularity": 1271,
+      "popularity": 1277,
       "featured": false
     },
     {
@@ -982,7 +982,31 @@
           "priority": 1
         }
       ],
-      "popularity": 1220,
+      "popularity": 1223,
+      "featured": false
+    },
+    {
+      "id": "radio-art-roots-reggae",
+      "name": "Radio Art - Roots Reggae",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.radioart.com/images/channels/Roots_reggae.jpg",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://live.radioart.com/fRoots_reggae.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 1187,
       "featured": false
     },
     {
@@ -1007,30 +1031,6 @@
         }
       ],
       "popularity": 1185,
-      "featured": false
-    },
-    {
-      "id": "radio-art-roots-reggae",
-      "name": "Radio Art - Roots Reggae",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/images/channels/Roots_reggae.jpg",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fRoots_reggae.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 1184,
       "featured": false
     },
     {
@@ -1082,7 +1082,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1090,
+      "popularity": 1093,
       "featured": false
     },
     {
@@ -1232,7 +1232,7 @@
           "priority": 1
         }
       ],
-      "popularity": 980,
+      "popularity": 983,
       "featured": false
     },
     {
@@ -1356,7 +1356,7 @@
           "priority": 1
         }
       ],
-      "popularity": 861,
+      "popularity": 864,
       "featured": false
     },
     {
@@ -1458,7 +1458,7 @@
           "priority": 1
         }
       ],
-      "popularity": 797,
+      "popularity": 803,
       "featured": false
     },
     {
@@ -1506,7 +1506,7 @@
           "priority": 1
         }
       ],
-      "popularity": 778,
+      "popularity": 784,
       "featured": false
     },
     {
@@ -1584,7 +1584,7 @@
           "priority": 1
         }
       ],
-      "popularity": 763,
+      "popularity": 766,
       "featured": false
     },
     {
@@ -1635,7 +1635,7 @@
           "priority": 1
         }
       ],
-      "popularity": 750,
+      "popularity": 753,
       "featured": false
     },
     {
@@ -1659,7 +1659,7 @@
           "priority": 1
         }
       ],
-      "popularity": 736,
+      "popularity": 739,
       "featured": false
     },
     {
@@ -1884,7 +1884,7 @@
           "priority": 1
         }
       ],
-      "popularity": 609,
+      "popularity": 612,
       "featured": false
     },
     {
@@ -2272,7 +2272,7 @@
           "priority": 1
         }
       ],
-      "popularity": 417,
+      "popularity": 420,
       "featured": false
     },
     {
@@ -2523,7 +2523,7 @@
           "priority": 1
         }
       ],
-      "popularity": 345,
+      "popularity": 348,
       "featured": false
     },
     {
@@ -2758,7 +2758,7 @@
           "priority": 2
         }
       ],
-      "popularity": 300,
+      "popularity": 303,
       "featured": false
     },
     {
@@ -2936,7 +2936,7 @@
           "priority": 1
         }
       ],
-      "popularity": 252,
+      "popularity": 255,
       "featured": false
     },
     {
@@ -2981,6 +2981,30 @@
           "url": "https://radiostreaming.ert.gr/ert-zeppelin",
           "codec": "mp3",
           "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 251,
+      "featured": false
+    },
+    {
+      "id": "athens-radio-trance",
+      "name": "Athens Radio Trance",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "http://www.tranceathena.com/",
+      "streams": [
+        {
+          "url": "https://cast.streams.ovh:8008/;",
+          "codec": "mp3",
+          "bitrate": 320,
           "priority": 1
         }
       ],
@@ -3075,30 +3099,6 @@
       "streams": [
         {
           "url": "https://stream1.468.gr/8108/stream",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        }
-      ],
-      "popularity": 242,
-      "featured": false
-    },
-    {
-      "id": "athens-radio-trance",
-      "name": "Athens Radio Trance",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "http://www.tranceathena.com/",
-      "streams": [
-        {
-          "url": "https://cast.streams.ovh:8008/;",
           "codec": "mp3",
           "bitrate": 320,
           "priority": 1
@@ -3221,7 +3221,7 @@
           "priority": 2
         }
       ],
-      "popularity": 220,
+      "popularity": 223,
       "featured": true
     },
     {
@@ -3516,6 +3516,30 @@
       "featured": false
     },
     {
+      "id": "ert-80s",
+      "name": "ERT 80s",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "retro"
+      ],
+      "frequency": null,
+      "logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.rrm1XQUxeshiuF6d2Z3F2AHaEO%3Fpid%3DApi&f=1&ipt=1dac3bd82c3d646c8d3d7ca5e0ff31a543507c9b25e38ad937d6d328818746b5&ipo=images",
+      "homepage": "https://radiostreaming.ert.gr/radio-80s",
+      "streams": [
+        {
+          "url": "https://radiostreaming.ert.gr/radio-80s",
+          "codec": "mp3",
+          "bitrate": 256,
+          "priority": 1
+        }
+      ],
+      "popularity": 188,
+      "featured": false
+    },
+    {
       "id": "minore-96-1",
       "name": "minore",
       "name_el": null,
@@ -3540,30 +3564,6 @@
         }
       ],
       "popularity": 188,
-      "featured": false
-    },
-    {
-      "id": "ert-80s",
-      "name": "ERT 80s",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "retro"
-      ],
-      "frequency": null,
-      "logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.rrm1XQUxeshiuF6d2Z3F2AHaEO%3Fpid%3DApi&f=1&ipt=1dac3bd82c3d646c8d3d7ca5e0ff31a543507c9b25e38ad937d6d328818746b5&ipo=images",
-      "homepage": "https://radiostreaming.ert.gr/radio-80s",
-      "streams": [
-        {
-          "url": "https://radiostreaming.ert.gr/radio-80s",
-          "codec": "mp3",
-          "bitrate": 256,
-          "priority": 1
-        }
-      ],
-      "popularity": 185,
       "featured": false
     },
     {
