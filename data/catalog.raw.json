@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T10:36:07.482Z",
+  "generated": "2026-10-11T10:48:54.943Z",
   "stations": [
     {
       "id": "zeppelin-106-7",
@@ -26,7 +26,7 @@
           "priority": 1
         }
       ],
-      "popularity": 26514,
+      "popularity": 26544,
       "featured": false
     },
     {
@@ -50,7 +50,7 @@
           "priority": 1
         }
       ],
-      "popularity": 17285,
+      "popularity": 17300,
       "featured": false
     },
     {
@@ -79,7 +79,7 @@
           "priority": 1
         }
       ],
-      "popularity": 6076,
+      "popularity": 6082,
       "featured": false
     },
     {
@@ -136,7 +136,7 @@
           "priority": 2
         }
       ],
-      "popularity": 4954,
+      "popularity": 4957,
       "featured": false
     },
     {
@@ -172,7 +172,7 @@
           "priority": 2
         }
       ],
-      "popularity": 4859,
+      "popularity": 4865,
       "featured": true
     },
     {
@@ -196,7 +196,7 @@
           "priority": 1
         }
       ],
-      "popularity": 4090,
+      "popularity": 4102,
       "featured": false
     },
     {
@@ -247,7 +247,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3181,
+      "popularity": 3190,
       "featured": false
     },
     {
@@ -302,7 +302,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3083,
+      "popularity": 3089,
       "featured": false
     },
     {
@@ -377,7 +377,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2695,
+      "popularity": 2698,
       "featured": false
     },
     {
@@ -477,7 +477,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2280,
+      "popularity": 2283,
       "featured": false
     },
     {
@@ -528,7 +528,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2108,
+      "popularity": 2114,
       "featured": false
     },
     {
@@ -558,7 +558,7 @@
           "priority": 2
         }
       ],
-      "popularity": 2011,
+      "popularity": 2014,
       "featured": false
     },
     {
@@ -585,7 +585,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1994,
+      "popularity": 1997,
       "featured": false
     },
     {
@@ -685,7 +685,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1790,
+      "popularity": 1793,
       "featured": false
     },
     {
@@ -709,7 +709,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1766,
+      "popularity": 1769,
       "featured": false
     },
     {
@@ -739,7 +739,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1751,
+      "popularity": 1754,
       "featured": false
     },
     {
@@ -823,7 +823,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1543,
+      "popularity": 1546,
       "featured": false
     },
     {
@@ -928,7 +928,7 @@
           "priority": 2
         }
       ],
-      "popularity": 1285,
+      "popularity": 1291,
       "featured": false
     },
     {
@@ -1232,7 +1232,7 @@
           "priority": 1
         }
       ],
-      "popularity": 983,
+      "popularity": 986,
       "featured": false
     },
     {
@@ -1256,7 +1256,7 @@
           "priority": 1
         }
       ],
-      "popularity": 979,
+      "popularity": 982,
       "featured": false
     },
     {
@@ -1462,6 +1462,30 @@
       "featured": false
     },
     {
+      "id": "electronica-vibes-pirate-radio-gr",
+      "name": "Electronica Vibes - Pirate Radio GR",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://piratefm.net/electronica-vibes-pirate-radio-gr/wp-content/uploads/2024/10/cropped-electronica.jpg",
+      "homepage": "https://piratefm.net/electronica-vibes-pirate-radio-gr/",
+      "streams": [
+        {
+          "url": "https://live.piratefm.net/electronica_vibes",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 787,
+      "featured": false
+    },
+    {
       "id": "ellada-sports",
       "name": "ELLADA SPORTS",
       "name_el": null,
@@ -1483,30 +1507,6 @@
         }
       ],
       "popularity": 786,
-      "featured": false
-    },
-    {
-      "id": "electronica-vibes-pirate-radio-gr",
-      "name": "Electronica Vibes - Pirate Radio GR",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://piratefm.net/electronica-vibes-pirate-radio-gr/wp-content/uploads/2024/10/cropped-electronica.jpg",
-      "homepage": "https://piratefm.net/electronica-vibes-pirate-radio-gr/",
-      "streams": [
-        {
-          "url": "https://live.piratefm.net/electronica_vibes",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 784,
       "featured": false
     },
     {
@@ -1683,7 +1683,7 @@
           "priority": 1
         }
       ],
-      "popularity": 734,
+      "popularity": 737,
       "featured": false
     },
     {
@@ -1707,7 +1707,7 @@
           "priority": 1
         }
       ],
-      "popularity": 692,
+      "popularity": 695,
       "featured": false
     },
     {
@@ -1932,7 +1932,7 @@
           "priority": 1
         }
       ],
-      "popularity": 548,
+      "popularity": 551,
       "featured": false
     },
     {
@@ -2940,30 +2940,6 @@
       "featured": false
     },
     {
-      "id": "kids-radio",
-      "name": "Kids Radio",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://sao.fm/wp-content/uploads/20240824164954119.jpg",
-      "homepage": "https://www.kidsradio.com/",
-      "streams": [
-        {
-          "url": "https://n03.rcs.revma.com/n7d6z9ez1duvv",
-          "codec": "aac",
-          "bitrate": 0,
-          "priority": 1
-        }
-      ],
-      "popularity": 252,
-      "featured": false
-    },
-    {
       "id": "zeppelin",
       "name": "Zeppelin",
       "name_el": null,
@@ -2984,7 +2960,7 @@
           "priority": 1
         }
       ],
-      "popularity": 251,
+      "popularity": 254,
       "featured": false
     },
     {
@@ -3008,7 +2984,31 @@
           "priority": 1
         }
       ],
-      "popularity": 251,
+      "popularity": 254,
+      "featured": false
+    },
+    {
+      "id": "kids-radio",
+      "name": "Kids Radio",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://sao.fm/wp-content/uploads/20240824164954119.jpg",
+      "homepage": "https://www.kidsradio.com/",
+      "streams": [
+        {
+          "url": "https://n03.rcs.revma.com/n7d6z9ez1duvv",
+          "codec": "aac",
+          "bitrate": 0,
+          "priority": 1
+        }
+      ],
+      "popularity": 252,
       "featured": false
     },
     {
@@ -3161,7 +3161,7 @@
           "priority": 1
         }
       ],
-      "popularity": 233,
+      "popularity": 236,
       "featured": false
     },
     {
@@ -3252,6 +3252,30 @@
       "featured": false
     },
     {
+      "id": "blues-radio-athens",
+      "name": "Blues Radio Athens",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://cdn-profiles.tunein.com/s255678/images/logod.png?t=637370766610000000",
+      "homepage": "https://bluesradio.gr/",
+      "streams": [
+        {
+          "url": "https://i4.streams.ovh/sc/bluesrad/stream",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 211,
+      "featured": false
+    },
+    {
       "id": "best",
       "name": "Best",
       "name_el": null,
@@ -3331,30 +3355,6 @@
         }
       ],
       "popularity": 210,
-      "featured": false
-    },
-    {
-      "id": "blues-radio-athens",
-      "name": "Blues Radio Athens",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://cdn-profiles.tunein.com/s255678/images/logod.png?t=637370766610000000",
-      "homepage": "https://bluesradio.gr/",
-      "streams": [
-        {
-          "url": "https://i4.streams.ovh/sc/bluesrad/stream",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        }
-      ],
-      "popularity": 208,
       "featured": false
     },
     {
