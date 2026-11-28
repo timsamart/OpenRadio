@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T13:50:23.344Z",
+  "generated": "2026-11-28T12:58:22.516Z",
   "stations": [
     {
       "id": "vanilla-radio-smooth-flavors",
@@ -22,7 +22,7 @@
           "priority": 1
         }
       ],
-      "popularity": 17718,
+      "popularity": 17731,
       "featured": false
     },
     {
@@ -58,7 +58,7 @@
           "priority": 2
         }
       ],
-      "popularity": 7477,
+      "popularity": 7479,
       "featured": false
     },
     {
@@ -115,7 +115,7 @@
           "priority": 1
         }
       ],
-      "popularity": 4529,
+      "popularity": 4524,
       "featured": false
     },
     {
@@ -139,7 +139,7 @@
           "priority": 1
         }
       ],
-      "popularity": 4366,
+      "popularity": 4374,
       "featured": false
     },
     {
@@ -163,7 +163,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3948,
+      "popularity": 3940,
       "featured": false
     },
     {
@@ -190,7 +190,7 @@
           "priority": 1
         }
       ],
-      "popularity": 3296,
+      "popularity": 3299,
       "featured": false
     },
     {
@@ -220,7 +220,7 @@
           "priority": 2
         }
       ],
-      "popularity": 3192,
+      "popularity": 3191,
       "featured": false
     },
     {
@@ -244,7 +244,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2766,
+      "popularity": 2770,
       "featured": false
     },
     {
@@ -302,7 +302,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2609,
+      "popularity": 2611,
       "featured": false
     },
     {
@@ -329,7 +329,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2475,
+      "popularity": 2478,
       "featured": false
     },
     {
@@ -353,7 +353,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2365,
+      "popularity": 2366,
       "featured": false
     },
     {
@@ -377,7 +377,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2331,
+      "popularity": 2336,
       "featured": false
     },
     {
@@ -404,7 +404,31 @@
           "priority": 1
         }
       ],
-      "popularity": 2259,
+      "popularity": 2261,
+      "featured": false
+    },
+    {
+      "id": "menta-88",
+      "name": "MENTA 88",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://menta88.gr/wp-content/uploads/2021/12/-LOGO-02-2021-e1639364215612.jpg",
+      "homepage": "https://menta88.gr/",
+      "streams": [
+        {
+          "url": "https://netradio.live24.gr/menta88ath?1699021717",
+          "codec": "aac",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 2078,
       "featured": false
     },
     {
@@ -431,31 +455,7 @@
           "priority": 1
         }
       ],
-      "popularity": 2072,
-      "featured": false
-    },
-    {
-      "id": "menta-88",
-      "name": "MENTA 88",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://menta88.gr/wp-content/uploads/2021/12/-LOGO-02-2021-e1639364215612.jpg",
-      "homepage": "https://menta88.gr/",
-      "streams": [
-        {
-          "url": "https://netradio.live24.gr/menta88ath?1699021717",
-          "codec": "aac",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 2067,
+      "popularity": 2073,
       "featured": false
     },
     {
@@ -483,34 +483,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1918,
-      "featured": false
-    },
-    {
-      "id": "libero-107-4",
-      "name": "Libero",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": {
-        "value": 107.4,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "https://libero.fm/",
-      "streams": [
-        {
-          "url": "https://radio.libero.fm:10750/live?1697856170939",
-          "codec": "mp3",
-          "bitrate": 64,
-          "priority": 1
-        }
-      ],
-      "popularity": 1868,
+      "popularity": 1912,
       "featured": false
     },
     {
@@ -534,7 +507,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1825,
+      "popularity": 1824,
       "featured": false
     },
     {
@@ -564,7 +537,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1793,
+      "popularity": 1800,
       "featured": false
     },
     {
@@ -588,7 +561,34 @@
           "priority": 1
         }
       ],
-      "popularity": 1687,
+      "popularity": 1695,
+      "featured": false
+    },
+    {
+      "id": "deejay-greece-corfu-97-5",
+      "name": "DeeJay Greece Corfu",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": {
+        "value": 97.5,
+        "unit": "MHz"
+      },
+      "logo": null,
+      "homepage": "https://djradio.gr/",
+      "streams": [
+        {
+          "url": "https://sh.onweb.gr:7083/stream",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 1660,
       "featured": false
     },
     {
@@ -612,7 +612,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1532,
+      "popularity": 1542,
       "featured": false
     },
     {
@@ -636,7 +636,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1472,
+      "popularity": 1470,
       "featured": false
     },
     {
@@ -670,6 +670,30 @@
       "featured": false
     },
     {
+      "id": "citizen",
+      "name": "Citizen",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://citizenradio.gr/wp-content/uploads/2020/06/cropped-favico-180x180.png",
+      "homepage": "https://citizenradio.gr/",
+      "streams": [
+        {
+          "url": "https://sp3.streams.ovh/8082/;",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 1355,
+      "featured": false
+    },
+    {
       "id": "radio-art-philip-glass",
       "name": "Radio Art - Philip Glass",
       "name_el": null,
@@ -690,7 +714,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1321,
+      "popularity": 1320,
       "featured": false
     },
     {
@@ -714,7 +738,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1215,
+      "popularity": 1216,
       "featured": false
     },
     {
@@ -762,7 +786,40 @@
           "priority": 1
         }
       ],
-      "popularity": 1107,
+      "popularity": 1114,
+      "featured": false
+    },
+    {
+      "id": "ερωτικοσ-94-8",
+      "name": "Ερωτικός",
+      "name_el": "Ερωτικός",
+      "aliases": [],
+      "country": "GR",
+      "city": "Thessaloniki",
+      "genres": [
+        "greek-pop"
+      ],
+      "frequency": {
+        "value": 94.8,
+        "unit": "MHz"
+      },
+      "logo": "https://www.eroticos.gr/favicon.ico",
+      "homepage": "https://www.eroticos.gr/",
+      "streams": [
+        {
+          "url": "https://eu1.fastcast4u.com/proxy/nmarog01",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        },
+        {
+          "url": "https://eu1.fastcast4u.com/proxy/nmarog01?mp=/1",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 2
+        }
+      ],
+      "popularity": 1090,
       "featured": false
     },
     {
@@ -790,6 +847,30 @@
       "featured": false
     },
     {
+      "id": "skai-tv",
+      "name": "SKAI TV",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.skaitv.gr/dist/images/favicons/apple-icon-120x120.png",
+      "homepage": "https://www.skaitv.gr/",
+      "streams": [
+        {
+          "url": "https://skai-live-back.siliconweb.com/media/cambria4/index.m3u8",
+          "codec": "aac",
+          "bitrate": 3249,
+          "priority": 1
+        }
+      ],
+      "popularity": 1069,
+      "featured": false
+    },
+    {
       "id": "psyndora-chillout",
       "name": "Psyndora Chillout",
       "name_el": null,
@@ -810,31 +891,7 @@
           "priority": 1
         }
       ],
-      "popularity": 1006,
-      "featured": false
-    },
-    {
-      "id": "radio-art-jazz-piano",
-      "name": "Radio Art - Jazz Piano",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/favicon.ico",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fJazz_piano.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 1003,
+      "popularity": 1011,
       "featured": false
     },
     {
@@ -861,7 +918,7 @@
           "priority": 1
         }
       ],
-      "popularity": 993,
+      "popularity": 992,
       "featured": true
     },
     {
@@ -883,33 +940,15 @@
           "codec": "aac",
           "bitrate": 320,
           "priority": 1
-        }
-      ],
-      "popularity": 985,
-      "featured": false
-    },
-    {
-      "id": "play-radio",
-      "name": "Play Radio",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "http://playradio.one/",
-      "streams": [
+        },
         {
-          "url": "https://n12.radiojar.com/0zs50dbr274tv?rj-ttl=5&rj-tok=AAABhP2aZowAREeJDqq73dSjNA",
-          "codec": "mp3",
+          "url": "https://blueswave.radio/flacmd",
+          "codec": "ogg",
           "bitrate": 0,
-          "priority": 1
+          "priority": 2
         }
       ],
-      "popularity": 961,
+      "popularity": 989,
       "featured": false
     },
     {
@@ -933,7 +972,31 @@
           "priority": 1
         }
       ],
-      "popularity": 958,
+      "popularity": 957,
+      "featured": false
+    },
+    {
+      "id": "play-radio",
+      "name": "Play Radio",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "http://playradio.one/",
+      "streams": [
+        {
+          "url": "https://n12.radiojar.com/0zs50dbr274tv?rj-ttl=5&rj-tok=AAABhP2aZowAREeJDqq73dSjNA",
+          "codec": "mp3",
+          "bitrate": 0,
+          "priority": 1
+        }
+      ],
+      "popularity": 953,
       "featured": false
     },
     {
@@ -957,7 +1020,34 @@
           "priority": 1
         }
       ],
-      "popularity": 916,
+      "popularity": 924,
+      "featured": false
+    },
+    {
+      "id": "focus-103-6",
+      "name": "focus",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Thessaloniki",
+      "genres": [
+        "news-talk"
+      ],
+      "frequency": {
+        "value": 103.6,
+        "unit": "MHz"
+      },
+      "logo": "https://focusfm.gr/wp-content/uploads/2023/08/listen-live.png",
+      "homepage": "https://focusfm.gr/",
+      "streams": [
+        {
+          "url": "https://ice.greekstream.net/focusfm",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 914,
       "featured": false
     },
     {
@@ -1008,7 +1098,7 @@
           "priority": 1
         }
       ],
-      "popularity": 837,
+      "popularity": 838,
       "featured": false
     },
     {
@@ -1032,7 +1122,7 @@
           "priority": 1
         }
       ],
-      "popularity": 836,
+      "popularity": 833,
       "featured": false
     },
     {
@@ -1059,7 +1149,7 @@
           "priority": 1
         }
       ],
-      "popularity": 774,
+      "popularity": 778,
       "featured": false
     },
     {
@@ -1083,31 +1173,7 @@
           "priority": 1
         }
       ],
-      "popularity": 768,
-      "featured": false
-    },
-    {
-      "id": "nea-tv",
-      "name": "Nea TV",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Heraklion",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.neatv.gr/wp-content/uploads/2018/12/cropped-favicon-180x180.png",
-      "homepage": "http://www.neatv.gr/",
-      "streams": [
-        {
-          "url": "https://live.neatv.gr:8888/hls/neatv_src/index.m3u8",
-          "codec": "unknown",
-          "bitrate": 0,
-          "priority": 1
-        }
-      ],
-      "popularity": 759,
+      "popularity": 767,
       "featured": false
     },
     {
@@ -1131,31 +1197,7 @@
           "priority": 1
         }
       ],
-      "popularity": 752,
-      "featured": false
-    },
-    {
-      "id": "club-fm-gr",
-      "name": "Club FM GR",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Thessaloniki",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2F1_VuaWf-x0NqMtgdnI3cfYNddylU1cHVFL_pnISaw3o%2Frs%3Afit%3A240%3A240%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSURnZ2FQcW9nc01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSURnd1pLNzlRb01vZ0VFZW1WdWJ3L2ltYWdlLz9yZXNpemU9MjQweDI0MCZ1cGRhdGVkPTE2NjIwNDc2MTMwMDA.webp&w=1920&q=75",
-      "homepage": "https://zeno.fm/radio/club-fm/",
-      "streams": [
-        {
-          "url": "https://stream-32.zeno.fm/z8cp1nqwhnruv?zs=sUtan8GnTDGarEqChfudfg&acu-uid=727435602967&triton-uid=cookie%3A83ca5b14-582e-4c12-a5ab-255cdb39e2cb",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 715,
+      "popularity": 750,
       "featured": false
     },
     {
@@ -1179,7 +1221,31 @@
           "priority": 1
         }
       ],
-      "popularity": 714,
+      "popularity": 715,
+      "featured": false
+    },
+    {
+      "id": "club-fm-gr",
+      "name": "Club FM GR",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Thessaloniki",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2F1_VuaWf-x0NqMtgdnI3cfYNddylU1cHVFL_pnISaw3o%2Frs%3Afit%3A240%3A240%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSURnZ2FQcW9nc01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSURnd1pLNzlRb01vZ0VFZW1WdWJ3L2ltYWdlLz9yZXNpemU9MjQweDI0MCZ1cGRhdGVkPTE2NjIwNDc2MTMwMDA.webp&w=1920&q=75",
+      "homepage": "https://zeno.fm/radio/club-fm/",
+      "streams": [
+        {
+          "url": "https://stream-32.zeno.fm/z8cp1nqwhnruv?zs=sUtan8GnTDGarEqChfudfg&acu-uid=727435602967&triton-uid=cookie%3A83ca5b14-582e-4c12-a5ab-255cdb39e2cb",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 711,
       "featured": false
     },
     {
@@ -1252,7 +1318,7 @@
           "priority": 1
         }
       ],
-      "popularity": 675,
+      "popularity": 676,
       "featured": false
     },
     {
@@ -1279,7 +1345,7 @@
           "priority": 1
         }
       ],
-      "popularity": 631,
+      "popularity": 637,
       "featured": false
     },
     {
@@ -1303,7 +1369,7 @@
           "priority": 1
         }
       ],
-      "popularity": 630,
+      "popularity": 631,
       "featured": false
     },
     {
@@ -1328,31 +1394,7 @@
           "priority": 1
         }
       ],
-      "popularity": 626,
-      "featured": false
-    },
-    {
-      "id": "radio-art-love-smooth-jazz",
-      "name": "Radio Art - Love Smooth Jazz",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/favicon.ico",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fLove_smooth_jazz.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 616,
+      "popularity": 628,
       "featured": false
     },
     {
@@ -1379,7 +1421,31 @@
           "priority": 1
         }
       ],
-      "popularity": 613,
+      "popularity": 621,
+      "featured": false
+    },
+    {
+      "id": "radio-art-love-smooth-jazz",
+      "name": "Radio Art - Love Smooth Jazz",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.radioart.com/favicon.ico",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://live.radioart.com/fLove_smooth_jazz.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 614,
       "featured": false
     },
     {
@@ -1403,34 +1469,7 @@
           "priority": 1
         }
       ],
-      "popularity": 607,
-      "featured": false
-    },
-    {
-      "id": "ερωτικοσ-94-8",
-      "name": "Ερωτικός",
-      "name_el": "Ερωτικός",
-      "aliases": [],
-      "country": "GR",
-      "city": "Thessaloniki",
-      "genres": [
-        "greek-pop"
-      ],
-      "frequency": {
-        "value": 94.8,
-        "unit": "MHz"
-      },
-      "logo": "https://resources.live24.gr/resources/images/stations/40ce9140-b7b5-4bb0-ae32-cdd248f3897e.png",
-      "homepage": "https://www.eroticos.gr/",
-      "streams": [
-        {
-          "url": "https://eu1.fastcast4u.com/proxy/nmarog01?mp=/1",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 602,
+      "popularity": 604,
       "featured": false
     },
     {
@@ -1439,7 +1478,7 @@
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": "Athens",
+      "city": null,
       "genres": [
         "international"
       ],
@@ -1448,43 +1487,13 @@
       "homepage": "http://offradio.gr/",
       "streams": [
         {
-          "url": "https://ec5.yesstreaming.net:2025/stream",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        },
-        {
           "url": "https://s7.yesstreaming.net/stream/8000",
           "codec": "mp3",
           "bitrate": 160,
-          "priority": 2
-        }
-      ],
-      "popularity": 581,
-      "featured": false
-    },
-    {
-      "id": "radio-art-fado",
-      "name": "Radio Art - Fado",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/images/channels/Fado.jpg",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fFado.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
           "priority": 1
         }
       ],
-      "popularity": 574,
+      "popularity": 577,
       "featured": false
     },
     {
@@ -1508,7 +1517,7 @@
           "priority": 1
         }
       ],
-      "popularity": 558,
+      "popularity": 555,
       "featured": false
     },
     {
@@ -1538,7 +1547,37 @@
           "priority": 1
         }
       ],
-      "popularity": 544,
+      "popularity": 542,
+      "featured": true
+    },
+    {
+      "id": "sfera",
+      "name": "Sfera",
+      "name_el": "Σφαίρα",
+      "aliases": [
+        "Sfera FM",
+        "Σφαίρα FM"
+      ],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "greek-pop"
+      ],
+      "frequency": {
+        "value": 98.7,
+        "unit": "MHz"
+      },
+      "logo": "https://www.sfera987.gr/wp-content/uploads/2020/03/SFERA-RADIO_HRAKLEIO-150x150.png",
+      "homepage": "https://www.sfera987.gr/",
+      "streams": [
+        {
+          "url": "https://i5.streams.ovh:2200/ssl/web100?mp=/stream&1603386012927",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 541,
       "featured": true
     },
     {
@@ -1565,7 +1604,55 @@
           "priority": 1
         }
       ],
-      "popularity": 539,
+      "popularity": 537,
+      "featured": false
+    },
+    {
+      "id": "rock-melodic-radio",
+      "name": "Rock Melodic Radio",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://static2.mytuner.mobi/media/tvos_radios/sgfyvpujsxre.jpg",
+      "homepage": "https://rockmelodic-radio.com/",
+      "streams": [
+        {
+          "url": "https://i4.streams.ovh:2200/ssl/rockmelo?mp=/stream",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 534,
+      "featured": false
+    },
+    {
+      "id": "ert-trito-maestro",
+      "name": "ERT Trito Maestro",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "https://www.ertecho.gr/radio/tritomaestro/",
+      "streams": [
+        {
+          "url": "https://radiostreaming.ert.gr/ert-trito-maestro",
+          "codec": "mp3",
+          "bitrate": 256,
+          "priority": 1
+        }
+      ],
+      "popularity": 531,
       "featured": false
     },
     {
@@ -1590,31 +1677,7 @@
           "priority": 1
         }
       ],
-      "popularity": 534,
-      "featured": false
-    },
-    {
-      "id": "rock-melodic-radio",
-      "name": "Rock Melodic Radio",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://static2.mytuner.mobi/media/tvos_radios/sgfyvpujsxre.jpg",
-      "homepage": "https://rockmelodic-radio.com/",
-      "streams": [
-        {
-          "url": "https://i4.streams.ovh:2200/ssl/rockmelo?mp=/stream",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        }
-      ],
-      "popularity": 533,
+      "popularity": 530,
       "featured": false
     },
     {
@@ -1641,7 +1704,7 @@
           "priority": 1
         }
       ],
-      "popularity": 510,
+      "popularity": 509,
       "featured": false
     },
     {
@@ -1665,31 +1728,34 @@
           "priority": 1
         }
       ],
-      "popularity": 498,
+      "popularity": 504,
       "featured": false
     },
     {
-      "id": "mancode-radio",
-      "name": "MANCODE RADIO",
+      "id": "alpha-news-106-2",
+      "name": "Alpha News",
       "name_el": null,
       "aliases": [],
       "country": "GR",
       "city": null,
       "genres": [
-        "international"
+        "news-talk"
       ],
-      "frequency": null,
+      "frequency": {
+        "value": 106.2,
+        "unit": "MHz"
+      },
       "logo": null,
-      "homepage": "https://mancoderadio.com/",
+      "homepage": "http://www.alpha1062.gr/",
       "streams": [
         {
-          "url": "https://stream.radiojar.com/2kqw1800x68uv?1690945099",
+          "url": "https://antares.dribbcast.com/proxy/alpha1062?mp=/stream",
           "codec": "mp3",
-          "bitrate": 0,
+          "bitrate": 192,
           "priority": 1
         }
       ],
-      "popularity": 483,
+      "popularity": 499,
       "featured": false
     },
     {
@@ -1713,7 +1779,7 @@
           "priority": 1
         }
       ],
-      "popularity": 481,
+      "popularity": 485,
       "featured": false
     },
     {
@@ -1737,7 +1803,7 @@
           "priority": 1
         }
       ],
-      "popularity": 478,
+      "popularity": 476,
       "featured": false
     },
     {
@@ -1764,31 +1830,7 @@
           "priority": 1
         }
       ],
-      "popularity": 455,
-      "featured": false
-    },
-    {
-      "id": "radio-art-smooth-jazz",
-      "name": "Radio Art - Smooth Jazz",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/images/channels/Smooth_jazz.jpg",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fSmooth_jazz.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 454,
+      "popularity": 457,
       "featured": false
     },
     {
@@ -1812,7 +1854,31 @@
           "priority": 1
         }
       ],
-      "popularity": 454,
+      "popularity": 453,
+      "featured": false
+    },
+    {
+      "id": "radio-art-smooth-jazz",
+      "name": "Radio Art - Smooth Jazz",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.radioart.com/images/channels/Smooth_jazz.jpg",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://live.radioart.com/fSmooth_jazz.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 448,
       "featured": false
     },
     {
@@ -1836,7 +1902,7 @@
           "priority": 1
         }
       ],
-      "popularity": 446,
+      "popularity": 444,
       "featured": false
     },
     {
@@ -1861,85 +1927,7 @@
           "priority": 1
         }
       ],
-      "popularity": 444,
-      "featured": false
-    },
-    {
-      "id": "karamela-92-4",
-      "name": "Karamela",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Thessaloniki",
-      "genres": [
-        "greek-pop"
-      ],
-      "frequency": {
-        "value": 92.4,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "http://www.karamela924.gr/",
-      "streams": [
-        {
-          "url": "https://netradio.live24.gr/924fm-thess",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 441,
-      "featured": false
-    },
-    {
-      "id": "rainbow-89-pop",
-      "name": "Rainbow 89 Pop",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Thessaloniki",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://resources.live24.gr/resources/images/stations/6a29d644-eaca-4282-89b1-468d4504cf65.png",
-      "homepage": "https://89rainbow.gr/",
-      "streams": [
-        {
-          "url": "https://n05.radiojar.com/ztqh29c8ktuvv?rj-ttl=5&rj-tok=AAABjW_eWdoAP4LPpPaNlupsMA",
-          "codec": "mp3",
-          "bitrate": 0,
-          "priority": 1
-        }
-      ],
-      "popularity": 422,
-      "featured": false
-    },
-    {
-      "id": "techno-base-103-1",
-      "name": "Techno Base",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": {
-        "value": 103.1,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "https://zeno.fm/radio/technobase-radio/",
-      "streams": [
-        {
-          "url": "https://stream-10.zeno.fm/izyb6gtfozpuv?zs=hRR4wSYGTi2FdjV89bXz5g&acu-uid=727435602967&triton-uid=cookie%3A83ca5b14-582e-4c12-a5ab-255cdb39e2cb",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 422,
+      "popularity": 443,
       "featured": false
     },
     {
@@ -1964,30 +1952,6 @@
         }
       ],
       "popularity": 422,
-      "featured": false
-    },
-    {
-      "id": "radio-art-pregnancy-relaxation",
-      "name": "Radio Art - Pregnancy Relaxation",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://stream30.radioart.com:2197/static/f142_pregnancy_r/covers/rsz_emb_piano_sensation_piano_solo_5c408f41.jpg",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fPregnancy_relaxation.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 416,
       "featured": false
     },
     {
@@ -2038,58 +2002,7 @@
           "priority": 1
         }
       ],
-      "popularity": 399,
-      "featured": false
-    },
-    {
-      "id": "radio-art-love-songs",
-      "name": "Radio Art - Love Songs",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/favicon.ico",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fLove_songs.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 391,
-      "featured": false
-    },
-    {
-      "id": "ellada-94-3",
-      "name": "Ellada",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": {
-        "value": 94.3,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "https://elladafm.gr/",
-      "streams": [
-        {
-          "url": "https://stream.ellada943.gr:10198/radio.mp3",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        }
-      ],
-      "popularity": 387,
+      "popularity": 398,
       "featured": false
     },
     {
@@ -2113,34 +2026,58 @@
           "priority": 1
         }
       ],
-      "popularity": 386,
+      "popularity": 389,
       "featured": false
     },
     {
-      "id": "star-corfu-88-8",
-      "name": "Star Corfu",
+      "id": "kral-100",
+      "name": "Kral 100",
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": "Corfu",
+      "city": null,
       "genres": [
         "international"
       ],
-      "frequency": {
-        "value": 88.8,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "https://star888.gr/",
+      "frequency": null,
+      "logo": "https://resources.live24.gr/resources/images/stations/0e0ff04b-8c02-4183-83e7-4f851879466d.jpg",
+      "homepage": "http://www.kralfm.gr/",
       "streams": [
         {
-          "url": "https://sh.onweb.gr/8800/stream/",
+          "url": "https://onairmediagroup.live24.gr/kralfm100xanthi",
           "codec": "mp3",
-          "bitrate": 128,
+          "bitrate": 160,
           "priority": 1
         }
       ],
       "popularity": 383,
+      "featured": false
+    },
+    {
+      "id": "real-97-8",
+      "name": "Real",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": {
+        "value": 97.8,
+        "unit": "MHz"
+      },
+      "logo": null,
+      "homepage": "http://www.realfm.gr/",
+      "streams": [
+        {
+          "url": "https://realfm.live24.gr/realfm",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 363,
       "featured": false
     },
     {
@@ -2167,31 +2104,31 @@
           "priority": 1
         }
       ],
-      "popularity": 362,
+      "popularity": 361,
       "featured": false
     },
     {
-      "id": "camara",
-      "name": "Camara",
+      "id": "athens-radio-trance",
+      "name": "Athens Radio Trance",
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": "Thessaloniki",
+      "city": null,
       "genres": [
         "international"
       ],
       "frequency": null,
       "logo": null,
-      "homepage": "https://www.camararadio.com/",
+      "homepage": "http://www.tranceathena.com/",
       "streams": [
         {
-          "url": "https://n06.radiojar.com/252ry9dgytzuv?rj-ttl=5&rj-tok=AAABeKi3emcATmr2vFF6A41gwQ",
+          "url": "https://cast.streams.ovh:8008/;",
           "codec": "mp3",
-          "bitrate": 0,
+          "bitrate": 320,
           "priority": 1
         }
       ],
-      "popularity": 351,
+      "popularity": 353,
       "featured": false
     },
     {
@@ -2215,7 +2152,7 @@
           "priority": 1
         }
       ],
-      "popularity": 349,
+      "popularity": 347,
       "featured": false
     },
     {
@@ -2249,27 +2186,27 @@
       "featured": true
     },
     {
-      "id": "radio-art-smooth-vocal",
-      "name": "Radio Art - Smooth Vocal",
+      "id": "camara",
+      "name": "Camara",
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": null,
+      "city": "Thessaloniki",
       "genres": [
         "international"
       ],
       "frequency": null,
-      "logo": "https://www.radioart.com/favicon.ico",
-      "homepage": "https://www.radioart.com/",
+      "logo": null,
+      "homepage": "https://www.camararadio.com/",
       "streams": [
         {
-          "url": "https://live.radioart.com/fSmooth_vocal.mp3",
+          "url": "https://n06.radiojar.com/252ry9dgytzuv?rj-ttl=5&rj-tok=AAABeKi3emcATmr2vFF6A41gwQ",
           "codec": "mp3",
-          "bitrate": 96,
+          "bitrate": 0,
           "priority": 1
         }
       ],
-      "popularity": 344,
+      "popularity": 347,
       "featured": false
     },
     {
@@ -2293,31 +2230,7 @@
           "priority": 1
         }
       ],
-      "popularity": 339,
-      "featured": false
-    },
-    {
-      "id": "radio-art-romantic-latin",
-      "name": "Radio Art - Romantic Latin",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/favicon.ico",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://live.radioart.com/fRomantic_latin.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 338,
+      "popularity": 345,
       "featured": false
     },
     {
@@ -2334,170 +2247,47 @@
         "value": 90.8,
         "unit": "MHz"
       },
-      "logo": "https://www.zooradio.gr/theme/assets/favicons/android-icon-192x192.png",
-      "homepage": "https://www.zooradio.gr/",
+      "logo": null,
+      "homepage": "http://zooradio.gr/",
       "streams": [
         {
-          "url": "https://metromedia.live24.gr/zoo908thess",
+          "url": "https://netradio.live24.gr/zoo908thess",
           "codec": "mp3",
           "bitrate": 192,
           "priority": 1
         },
         {
-          "url": "https://netradio.live24.gr/zoo908thess",
+          "url": "https://metromedia.live24.gr/zoo908thess",
           "codec": "mp3",
           "bitrate": 192,
           "priority": 2
         }
       ],
-      "popularity": 337,
+      "popularity": 335,
       "featured": false
     },
     {
-      "id": "suburbia-parties-athens-hardcore-radio",
-      "name": "Suburbia Parties - Athens Hardcore Radio",
+      "id": "galaxy-music-the-blues-rock",
+      "name": "Galaxy Music The Blues Rock",
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": null,
+      "city": "Thessaloniki",
       "genres": [
         "international"
       ],
       "frequency": null,
-      "logo": "https://www.suburbiaparties.com/images/logo_header_white_800.png",
-      "homepage": "https://radio.suburbiaparties.com/",
+      "logo": "https://www.wix.com/favicon.ico",
+      "homepage": "https://alexiou.wixsite.com/radiogalaxy",
       "streams": [
         {
-          "url": "https://s9.webradio-hosting.com/proxy/suburbiaparties/stream",
+          "url": "https://stream-43.zeno.fm/g261akwwnuhvv?zs=IItfS4p6Ts-fl350XL4uqQ",
           "codec": "mp3",
           "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 333,
-      "featured": false
-    },
-    {
-      "id": "coffee",
-      "name": "Coffee",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "retro"
-      ],
-      "frequency": null,
-      "logo": "https://www.thewebradio.gr/templates/shaper_helix3/images/favicon.ico",
-      "homepage": "https://www.thewebradio.gr/index.php/coffee",
-      "streams": [
-        {
-          "url": "https://solid9.streamupsolutions.com/proxy/teqgebwz/stream",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 332,
-      "featured": false
-    },
-    {
-      "id": "houseradio",
-      "name": "Houseradio",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "https://houseradio.gr/",
-      "streams": [
-        {
-          "url": "https://i9.streams.ovh/sc/contactradio/stream",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        }
-      ],
-      "popularity": 332,
-      "featured": false
-    },
-    {
-      "id": "nostos-100-6",
-      "name": "Nostos",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": {
-        "value": 100.6,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "http://www.nostosradio.gr/",
-      "streams": [
-        {
-          "url": "https://neos.win:37878/stream?type=.mp3?ver=325606",
-          "codec": "mp3",
-          "bitrate": 192,
           "priority": 1
         }
       ],
       "popularity": 329,
-      "featured": false
-    },
-    {
-      "id": "12-gods-cafe",
-      "name": "12 Gods Cafe",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "http://www.12godscafe.gr/",
-      "streams": [
-        {
-          "url": "https://s4.myradiostream.com/:14374/;?type=http&nocache=1695638039?0.8040765476688225",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 328,
-      "featured": false
-    },
-    {
-      "id": "skglobe-powershots",
-      "name": "SKGLOBE POWERSHOTS!",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "https://skglobe.net/",
-      "streams": [
-        {
-          "url": "https://smartstream.link/powershots",
-          "codec": "aac",
-          "bitrate": 64,
-          "priority": 1
-        }
-      ],
-      "popularity": 325,
       "featured": false
     },
     {
@@ -2522,7 +2312,7 @@
           "priority": 1
         }
       ],
-      "popularity": 323,
+      "popularity": 324,
       "featured": false
     },
     {
@@ -2547,7 +2337,7 @@
           "priority": 1
         }
       ],
-      "popularity": 321,
+      "popularity": 322,
       "featured": false
     },
     {
@@ -2580,7 +2370,7 @@
           "priority": 2
         }
       ],
-      "popularity": 306,
+      "popularity": 310,
       "featured": false
     },
     {
@@ -2604,7 +2394,7 @@
           "priority": 1
         }
       ],
-      "popularity": 289,
+      "popularity": 287,
       "featured": false
     },
     {
@@ -2632,102 +2422,27 @@
       "featured": false
     },
     {
-      "id": "galaxy-music-greek-mix",
-      "name": "Galaxy Music Greek Mix",
+      "id": "kiss-98",
+      "name": "Kiss 98",
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": "Thessaloniki",
-      "genres": [
-        "greek-pop"
-      ],
-      "frequency": null,
-      "logo": "https://www.wix.com/favicon.ico",
-      "homepage": "https://alexiou.wixsite.com/radiogalaxy",
-      "streams": [
-        {
-          "url": "https://stream-55.zeno.fm/ahwwv9myuxhvv?zs=CH4AwVsLSIG5lRqwzwM_Dw",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 284,
-      "featured": false
-    },
-    {
-      "id": "akous-domotel-deluxe",
-      "name": "Akous Domotel Deluxe",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
+      "city": "Volos",
       "genres": [
         "international"
       ],
       "frequency": null,
-      "logo": "https://www.akous.gr/logos/akous_Deluxe_2.png",
-      "homepage": "https://www.akous.gr/",
+      "logo": null,
+      "homepage": "https://kiss98.gr/",
       "streams": [
         {
-          "url": "https://live.akous.gr/akousdeluxe",
+          "url": "https://s6.onweb.gr:7029/stream",
           "codec": "mp3",
           "bitrate": 128,
           "priority": 1
         }
       ],
       "popularity": 275,
-      "featured": false
-    },
-    {
-      "id": "radio-art-guitar-for-sleep",
-      "name": "Radio Art - Guitar for Sleep",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://cdn.radioart.com/images/channels/138_guitar_for_s-600x400.jpg",
-      "homepage": "https://www.radioart.com/",
-      "streams": [
-        {
-          "url": "https://air.radioart.online/fGuitar_for_sleep.mp3",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 269,
-      "featured": false
-    },
-    {
-      "id": "disco-101-1",
-      "name": "Disco",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": {
-        "value": 101.1,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "https://discofmgreece.blogspot.com/",
-      "streams": [
-        {
-          "url": "https://stream-152.zeno.fm/8uhaz4x25bhvv?zs=96P8STqCRQKyBa82jb6QKQ",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 267,
       "featured": false
     },
     {
@@ -2751,7 +2466,55 @@
           "priority": 1
         }
       ],
-      "popularity": 262,
+      "popularity": 273,
+      "featured": false
+    },
+    {
+      "id": "radio-art-guitar-for-sleep",
+      "name": "Radio Art - Guitar for Sleep",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://cdn.radioart.com/images/channels/138_guitar_for_s-600x400.jpg",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://air.radioart.online/fGuitar_for_sleep.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 271,
+      "featured": false
+    },
+    {
+      "id": "smooth-jazz-111",
+      "name": "Smooth Jazz 111",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://zeno.fm/_ipx/_/https://images.zeno.fm/xALni57HE2fTcMWA5otqvgn8HT9zq4YO0JSLqZ9RFM0/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvMzgwMDhiNDMtYTE3OS00ODZlLTlhNGItNTY5NDRiNDZmNjA4L2ltYWdlLz91PTE3MDE2OTc4NzYwMDA.webp",
+      "homepage": "http://www.111radio.gr/",
+      "streams": [
+        {
+          "url": "https://cast.magicstreams.gr/sc/111radio/stream",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 260,
       "featured": false
     },
     {
@@ -2778,56 +2541,35 @@
           "priority": 1
         }
       ],
-      "popularity": 259,
+      "popularity": 257,
       "featured": false
     },
     {
-      "id": "smooth-radio-thessaloniki",
-      "name": "Smooth Radio Thessaloniki",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Thessaloniki",
-      "genres": [
-        "international"
+      "id": "kosmos",
+      "name": "Kosmos",
+      "name_el": "Κόσμος",
+      "aliases": [
+        "ERT Kosmos",
+        "Κόσμος 93.6"
       ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "http://smooth.radiostation.gr/",
-      "streams": [
-        {
-          "url": "https://solid9.streamupsolutions.com/proxy/lrazisyb?mp=/live",
-          "codec": "aac",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 259,
-      "featured": false
-    },
-    {
-      "id": "smooth-jazz-111",
-      "name": "Smooth Jazz 111",
-      "name_el": null,
-      "aliases": [],
       "country": "GR",
       "city": "Athens",
       "genres": [
         "international"
       ],
       "frequency": null,
-      "logo": "https://zeno.fm/_ipx/_/https://images.zeno.fm/xALni57HE2fTcMWA5otqvgn8HT9zq4YO0JSLqZ9RFM0/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvMzgwMDhiNDMtYTE3OS00ODZlLTlhNGItNTY5NDRiNDZmNjA4L2ltYWdlLz91PTE3MDE2OTc4NzYwMDA.webp",
-      "homepage": "http://www.111radio.gr/",
+      "logo": "https://resources.live24.gr/resources/images/stations/ab128af1-cf7f-48bc-9f9d-d0eb41229c06.png",
+      "homepage": "https://www.ertecho.gr/",
       "streams": [
         {
-          "url": "https://cast.magicstreams.gr/sc/111radio/stream",
+          "url": "https://radiostreaming.ert.gr/ert-kosmos",
           "codec": "mp3",
-          "bitrate": 320,
+          "bitrate": 256,
           "priority": 1
         }
       ],
-      "popularity": 258,
-      "featured": false
+      "popularity": 250,
+      "featured": true
     },
     {
       "id": "derti-2",
@@ -2880,7 +2622,7 @@
           "priority": 1
         }
       ],
-      "popularity": 245,
+      "popularity": 246,
       "featured": false
     },
     {
@@ -2907,91 +2649,31 @@
           "priority": 1
         }
       ],
-      "popularity": 242,
+      "popularity": 245,
       "featured": false
     },
     {
-      "id": "greca-99-4",
-      "name": "Greca",
+      "id": "memories-radio",
+      "name": "Memories Radio",
       "name_el": null,
       "aliases": [],
       "country": "GR",
       "city": null,
       "genres": [
-        "international"
+        "retro"
       ],
-      "frequency": {
-        "value": 99.4,
-        "unit": "MHz"
-      },
+      "frequency": null,
       "logo": null,
-      "homepage": "https://grecafm.gr/",
+      "homepage": "https://memoriesradio.gr/",
       "streams": [
         {
-          "url": "https://greca994.radiohost.ovh/9043/stream",
+          "url": "https://stream1.468.gr/8108/stream",
           "codec": "mp3",
           "bitrate": 320,
           "priority": 1
-        },
-        {
-          "url": "https://cast2.radiohost.ovh/grecafm?mp=/stream",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 2
         }
       ],
-      "popularity": 239,
-      "featured": false
-    },
-    {
-      "id": "kosmos",
-      "name": "Kosmos",
-      "name_el": "Κόσμος",
-      "aliases": [
-        "ERT Kosmos",
-        "Κόσμος 93.6"
-      ],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://resources.live24.gr/resources/images/stations/ab128af1-cf7f-48bc-9f9d-d0eb41229c06.png",
-      "homepage": "https://www.ertecho.gr/",
-      "streams": [
-        {
-          "url": "https://radiostreaming.ert.gr/ert-kosmos",
-          "codec": "mp3",
-          "bitrate": 256,
-          "priority": 1
-        }
-      ],
-      "popularity": 238,
-      "featured": true
-    },
-    {
-      "id": "movement-radio-1",
-      "name": "movement.radio 1",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "http://www.movement.radio/",
-      "streams": [
-        {
-          "url": "https://movementathens.out.airtime.pro/movementathens_a",
-          "codec": "aac",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 231,
+      "popularity": 242,
       "featured": false
     },
     {
@@ -3025,7 +2707,59 @@
           "priority": 2
         }
       ],
-      "popularity": 229,
+      "popularity": 231,
+      "featured": false
+    },
+    {
+      "id": "radio-art-nortena",
+      "name": "Radio Art - Norteña",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.radioart.com/favicon.ico",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://live.radioart.com/fNortena.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 230,
+      "featured": false
+    },
+    {
+      "id": "πιερια-104-2",
+      "name": "Πιερία",
+      "name_el": "Πιερία",
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "laiko",
+        "greek-pop"
+      ],
+      "frequency": {
+        "value": 104.2,
+        "unit": "MHz"
+      },
+      "logo": null,
+      "homepage": "https://radiopieria.com/",
+      "streams": [
+        {
+          "url": "https://rpieria.radioca.st/;",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 221,
       "featured": false
     },
     {
@@ -3055,7 +2789,7 @@
           "priority": 1
         }
       ],
-      "popularity": 222,
+      "popularity": 221,
       "featured": false
     },
     {
@@ -3079,55 +2813,35 @@
           "priority": 1
         }
       ],
-      "popularity": 216,
+      "popularity": 220,
       "featured": false
     },
     {
-      "id": "scorpios-athens-radio",
-      "name": "Scorpios Athens Radio",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
-      "genres": [
-        "international"
-      ],
-      "frequency": null,
-      "logo": "https://static-media.streema.com/media/cache/ab/e6/abe6d5958b022c41b5bb3b8c77cef34c.jpg",
-      "homepage": "http://scorpiostheathensradio.blogspot.com/",
-      "streams": [
-        {
-          "url": "https://cast.streams.ovh:2200/ssl/scorpio1?mp=/stream",
-          "codec": "mp3",
-          "bitrate": 320,
-          "priority": 1
-        }
-      ],
-      "popularity": 215,
-      "featured": false
-    },
-    {
-      "id": "radio-art-tokyo",
-      "name": "Radio Art - Tokyo",
+      "id": "retro-93-7",
+      "name": "Retro",
       "name_el": null,
       "aliases": [],
       "country": "GR",
       "city": null,
       "genres": [
-        "international"
+        "laiko",
+        "retro"
       ],
-      "frequency": null,
-      "logo": "https://www.radioart.com/images/channels/Tokyo.jpg",
-      "homepage": "https://www.radioart.com/",
+      "frequency": {
+        "value": 93.7,
+        "unit": "MHz"
+      },
+      "logo": null,
+      "homepage": "https://retro937.blogspot.com/",
       "streams": [
         {
-          "url": "https://live.radioart.com/fTokyo.mp3",
+          "url": "https://sp.streams.ovh/8056/stream",
           "codec": "mp3",
-          "bitrate": 96,
+          "bitrate": 128,
           "priority": 1
         }
       ],
-      "popularity": 215,
+      "popularity": 216,
       "featured": false
     },
     {
@@ -3147,6 +2861,30 @@
       "streams": [
         {
           "url": "https://streamyourdream.org:8138/stream",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 212,
+      "featured": false
+    },
+    {
+      "id": "radio-galaxy-99",
+      "name": "Radio Galaxy 99",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "http://www.radiogalaxy99.com/",
+      "streams": [
+        {
+          "url": "https://solid1.streamupsolutions.com/proxy/tfcgioyq?mp=/stream",
           "codec": "mp3",
           "bitrate": 128,
           "priority": 1
@@ -3176,7 +2914,34 @@
           "priority": 1
         }
       ],
-      "popularity": 210,
+      "popularity": 209,
+      "featured": false
+    },
+    {
+      "id": "alexandroupolis-dee-jay-94-8",
+      "name": "Alexandroupolis Dee Jay",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": {
+        "value": 94.8,
+        "unit": "MHz"
+      },
+      "logo": "https://resources.live24.gr/resources/images/stations/4d1c85f9-6bfd-4121-98ec-6408b3b94ff6.jpg",
+      "homepage": "http://www.deejayradio.gr/",
+      "streams": [
+        {
+          "url": "https://stream.myip.gr/proxy/deejay?mp=/stream",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 205,
       "featured": false
     },
     {
@@ -3204,132 +2969,27 @@
       "featured": false
     },
     {
-      "id": "alexandroupolis-dee-jay-94-8",
-      "name": "Alexandroupolis Dee Jay",
+      "id": "rainbow-89-alternative",
+      "name": "Rainbow 89 Alternative",
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": {
-        "value": 94.8,
-        "unit": "MHz"
-      },
-      "logo": "https://resources.live24.gr/resources/images/stations/4d1c85f9-6bfd-4121-98ec-6408b3b94ff6.jpg",
-      "homepage": "http://www.deejayradio.gr/",
-      "streams": [
-        {
-          "url": "https://stream.myip.gr/proxy/deejay?mp=/stream",
-          "codec": "mp3",
-          "bitrate": 192,
-          "priority": 1
-        }
-      ],
-      "popularity": 198,
-      "featured": false
-    },
-    {
-      "id": "seven-news-94-4",
-      "name": "Seven News",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Kavala",
-      "genres": [
-        "news-talk"
-      ],
-      "frequency": {
-        "value": 94.4,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "http://evdomimera.gr/",
-      "streams": [
-        {
-          "url": "https://i5.streams.ovh:14030/live",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 196,
-      "featured": false
-    },
-    {
-      "id": "ιερααρχιεπισκοπηκρητησ",
-      "name": "Ιερά Αρχιεπισκοπή Κρήτης",
-      "name_el": "Ιερά Αρχιεπισκοπή Κρήτης",
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "greek-pop"
-      ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "http://www.iak.gr/",
-      "streams": [
-        {
-          "url": "https://i7.streams.ovh/ic/iakradi1/stream",
-          "codec": "mp3",
-          "bitrate": 96,
-          "priority": 1
-        }
-      ],
-      "popularity": 194,
-      "featured": false
-    },
-    {
-      "id": "magic-98-2",
-      "name": "Magic",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Chania",
-      "genres": [
-        "greek-pop"
-      ],
-      "frequency": {
-        "value": 98.2,
-        "unit": "MHz"
-      },
-      "logo": null,
-      "homepage": "https://www.magicfm.gr/",
-      "streams": [
-        {
-          "url": "https://netradio.live24.gr/magic982",
-          "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 189,
-      "featured": false
-    },
-    {
-      "id": "rock-angels",
-      "name": "Rock Angels",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": "Athens",
+      "city": "Thessaloniki",
       "genres": [
         "international"
       ],
       "frequency": null,
-      "logo": null,
-      "homepage": "https://teogiota.blogspot.com/",
+      "logo": "https://resources.live24.gr/resources/images/stations/6a29d644-eaca-4282-89b1-468d4504cf65.png",
+      "homepage": "https://89rainbow.gr/",
       "streams": [
         {
-          "url": "https://azuracast.streams.ovh/radio/8030/radio.mp3",
+          "url": "https://n0c.radiojar.com/vhknc3c8ktuvv?rj-ttl=5&rj-tok=AAABjW_ZdaoAXabhOqjfpH7GNg",
           "codec": "mp3",
-          "bitrate": 192,
+          "bitrate": 0,
           "priority": 1
         }
       ],
-      "popularity": 186,
+      "popularity": 195,
       "featured": false
     },
     {
@@ -3353,31 +3013,85 @@
           "priority": 1
         }
       ],
-      "popularity": 181,
+      "popularity": 187,
       "featured": false
     },
     {
-      "id": "music-art-club",
-      "name": "Music Art Club",
+      "id": "paidaki-97-5",
+      "name": "Paidaki",
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": null,
+      "city": "Thessaloniki",
       "genres": [
         "international"
       ],
-      "frequency": null,
-      "logo": null,
-      "homepage": "http://www.musicartclub.gr/",
+      "frequency": {
+        "value": 97.5,
+        "unit": "MHz"
+      },
+      "logo": "https://www.paidaki975.gr/wp-content/uploads/2023/11/logo.jpeg",
+      "homepage": "https://www.paidaki975.gr/",
       "streams": [
         {
-          "url": "https://eu9.fastcast4u.com/proxy/musicart?mp=/1",
+          "url": "https://paidaki975.radioca.st/;",
           "codec": "mp3",
           "bitrate": 128,
           "priority": 1
         }
       ],
-      "popularity": 179,
+      "popularity": 185,
+      "featured": false
+    },
+    {
+      "id": "rock-angels",
+      "name": "Rock Angels",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "https://teogiota.blogspot.com/",
+      "streams": [
+        {
+          "url": "https://azuracast.streams.ovh/radio/8030/radio.mp3",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 184,
+      "featured": false
+    },
+    {
+      "id": "ραδιοθεσσαλονικη-94-5",
+      "name": "Ράδιο Θεσσαλονίκη",
+      "name_el": "Ράδιο Θεσσαλονίκη",
+      "aliases": [],
+      "country": "GR",
+      "city": "Thessaloniki",
+      "genres": [
+        "greek-pop"
+      ],
+      "frequency": {
+        "value": 94.5,
+        "unit": "MHz"
+      },
+      "logo": null,
+      "homepage": "https://www.rthess.gr/",
+      "streams": [
+        {
+          "url": "https://eu7.fastcast4u.com/proxy/nmarog02?mp=/1",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 175,
       "featured": false
     },
     {
@@ -3405,30 +3119,60 @@
       "featured": false
     },
     {
-      "id": "ραδιοθεσσαλονικη-94-5",
-      "name": "Ράδιο Θεσσαλονίκη",
-      "name_el": "Ράδιο Θεσσαλονίκη",
+      "id": "mega-news-104-6",
+      "name": "Mega News",
+      "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": "Thessaloniki",
+      "city": "Athens",
       "genres": [
-        "greek-pop"
+        "news-talk"
       ],
       "frequency": {
-        "value": 94.5,
+        "value": 104.6,
         "unit": "MHz"
       },
-      "logo": null,
-      "homepage": "https://www.rthess.gr/",
+      "logo": "https://cdn-profiles.tunein.com/s360461/images/logod.png?t=639234200530000000",
+      "homepage": "https://www.meganews1046.gr/",
       "streams": [
         {
-          "url": "https://eu7.fastcast4u.com/proxy/nmarog02?mp=/1",
+          "url": "https://nmcdn-ea00263bf2fa4959b1207c5b169d1517.msvdn.net/icecastRelay/S92303783/lih0S0uubyJi/icecast",
           "codec": "mp3",
-          "bitrate": 128,
+          "bitrate": 192,
+          "priority": 1
+        },
+        {
+          "url": "https://radio.garden/api/ara/content/listen/otrjcnPs/channel.mp3?1789758249626",
+          "codec": "mp3",
+          "bitrate": 192,
+          "priority": 2
+        }
+      ],
+      "popularity": 171,
+      "featured": false
+    },
+    {
+      "id": "radio-art-cello-for-sleep",
+      "name": "Radio Art - Cello for Sleep",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://cdn.radioart.com/images/channels/139_cello_for_s-600x400.jpg",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://air.radioart.online/fCello_for_sleep.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
           "priority": 1
         }
       ],
-      "popularity": 172,
+      "popularity": 170,
       "featured": false
     },
     {
@@ -3453,7 +3197,7 @@
           "priority": 1
         }
       ],
-      "popularity": 167,
+      "popularity": 165,
       "featured": false
     },
     {
@@ -3485,50 +3229,23 @@
       "featured": false
     },
     {
-      "id": "f-radio-gr-deep-lounge",
-      "name": "F-Radio GR Deep Lounge",
+      "id": "jazz-breeze",
+      "name": "Jazz Breeze",
       "name_el": null,
       "aliases": [],
       "country": "GR",
-      "city": null,
+      "city": "Athens",
       "genres": [
         "international"
       ],
       "frequency": null,
-      "logo": "https://zeno.fm/favicon.ico",
-      "homepage": "https://zeno.fm/radio/fradiogr-deeplounge/",
+      "logo": "https://static.wixstatic.com/media/aa66d3_2eaf08223c9b4dc59681d0e05963ffb3~mv2.png/v1/fill/w_518,h_509,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo2_edited.png",
+      "homepage": "https://www.jazzbreezeradio.com/",
       "streams": [
         {
-          "url": "https://stream-57.zeno.fm/edgfmrfvvk8uv?zs=P42sv4XDTRG_KVdLM3V96w&acu-uid=727435602967&triton-uid=cookie%3A83ca5b14-582e-4c12-a5ab-255cdb39e2cb",
+          "url": "https://n03.radiojar.com/8tqwqkrhk48uv?rj-ttl=5&rj-tok=AAABhWUzD2oAZxpriF75OruLjw",
           "codec": "mp3",
-          "bitrate": 128,
-          "priority": 1
-        }
-      ],
-      "popularity": 164,
-      "featured": false
-    },
-    {
-      "id": "power-92-3",
-      "name": "Power",
-      "name_el": null,
-      "aliases": [],
-      "country": "GR",
-      "city": null,
-      "genres": [
-        "international"
-      ],
-      "frequency": {
-        "value": 92.3,
-        "unit": "MHz"
-      },
-      "logo": "https://powerfm923.gr/wp-content/uploads/2021/10/favicon.png",
-      "homepage": "http://www.powerfm923.gr/",
-      "streams": [
-        {
-          "url": "https://neos.win:59230/stream",
-          "codec": "mp3",
-          "bitrate": 192,
+          "bitrate": 0,
           "priority": 1
         }
       ],
@@ -3556,7 +3273,37 @@
           "priority": 1
         }
       ],
-      "popularity": 161,
+      "popularity": 162,
+      "featured": false
+    },
+    {
+      "id": "easy-80s",
+      "name": "Easy 80s",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "retro"
+      ],
+      "frequency": null,
+      "logo": "https://api.soundis.gr/resized/streams/2024/01/09/1easy-80s_4ad3b3a8e96832fac2880542307b45f5.jpg?w=120&h=120&c=1",
+      "homepage": "https://www.soundis.gr/",
+      "streams": [
+        {
+          "url": "https://n32a-eu.rcs.revma.com/wvt5ty5r4a0uv?rj-ttl=5&rj-tok=AAABnRyLl80AVJHYnMSEDODixA",
+          "codec": "mp3",
+          "bitrate": 0,
+          "priority": 1
+        },
+        {
+          "url": "https://n02a-eu.rcs.revma.com/qhx9z05r4a0uv?rj-ttl=5&rj-tok=AAABnSFRnI0Af8LBaTRQQYvwhw",
+          "codec": "mp3",
+          "bitrate": 0,
+          "priority": 2
+        }
+      ],
+      "popularity": 158,
       "featured": false
     },
     {
@@ -3580,7 +3327,289 @@
           "priority": 1
         }
       ],
-      "popularity": 160,
+      "popularity": 158,
+      "featured": false
+    },
+    {
+      "id": "υπαρχω-101-4",
+      "name": "Υπάρχω",
+      "name_el": "Υπάρχω",
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "laiko",
+        "greek-pop"
+      ],
+      "frequency": {
+        "value": 101.4,
+        "unit": "MHz"
+      },
+      "logo": null,
+      "homepage": "https://www.yparxwfm.gr/",
+      "streams": [
+        {
+          "url": "https://cast4.magicstreams.gr:2200/ssl/sc_gr40c?mp=/stream",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 156,
+      "featured": false
+    },
+    {
+      "id": "derti-radio",
+      "name": "Derti Radio",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://derti.gr/wp-content/uploads/2023/12/cropped-DERTI-LOGO-1-192x192.png",
+      "homepage": "http://www.derti.gr/",
+      "streams": [
+        {
+          "url": "https://derti.live24.gr/derty1000",
+          "codec": "aac",
+          "bitrate": 160,
+          "priority": 1
+        }
+      ],
+      "popularity": 148,
+      "featured": false
+    },
+    {
+      "id": "radioart-broadway",
+      "name": "RadioArt: Broadway",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.radio.net/images/broadcasts/00/1c/105516/1/c300.png",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://live.radioart.com/fBroadway.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        },
+        {
+          "url": "https://air.radioart.online/fBroadway.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 2
+        }
+      ],
+      "popularity": 148,
+      "featured": false
+    },
+    {
+      "id": "1st-greek-jazz-flac-radio-aac",
+      "name": "1st Greek Jazz FLAC Radio AAC+",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "retro",
+        "greek-pop"
+      ],
+      "frequency": null,
+      "logo": "https://newageradio.gr/jazz_1024x1024.png",
+      "homepage": "https://newageradio.gr/",
+      "streams": [
+        {
+          "url": "https://stream.newageradio.gr/listen/jazz/radio.aac",
+          "codec": "aac",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 146,
+      "featured": false
+    },
+    {
+      "id": "radio-art-baby-sleep",
+      "name": "Radio Art - Baby Sleep",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://cdn.radioart.com/images/channels/140_baby_sleep-600x400.jpg",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://air.radioart.online/fBaby_sleep.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 146,
+      "featured": false
+    },
+    {
+      "id": "queen-greek-radio",
+      "name": "Queen Greek Radio",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "greek-pop"
+      ],
+      "frequency": null,
+      "logo": "https://www.facebook.com/favicon.ico",
+      "homepage": "https://www.facebook.com/QueenGreekRadio/",
+      "streams": [
+        {
+          "url": "https://stream-55.zeno.fm/k11h6usv7hhvv?zs=4D70nU6MSvaGZpghIWT-tA&acu-uid=727435602967&triton-uid=cookie%3A83ca5b14-582e-4c12-a5ab-255cdb39e2cb",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 134,
+      "featured": false
+    },
+    {
+      "id": "radio-art-a-cappella",
+      "name": "Radio Art - A Cappella",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": "https://www.radioart.com/images/channels/182_a-cappella-600x400.jpg",
+      "homepage": "https://www.radioart.com/",
+      "streams": [
+        {
+          "url": "https://live.radioart.com/fA_Cappella.mp3",
+          "codec": "mp3",
+          "bitrate": 96,
+          "priority": 1
+        }
+      ],
+      "popularity": 131,
+      "featured": false
+    },
+    {
+      "id": "80smania-gr",
+      "name": "80smania GR",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "retro"
+      ],
+      "frequency": null,
+      "logo": "https://raw.githubusercontent.com/chalazonihost/freefreehosting/master/80sspot.png",
+      "homepage": "https://www.80smania.gr/",
+      "streams": [
+        {
+          "url": "https://solid9.streamupsolutions.com/proxy/glzzkced/streamor",
+          "codec": "mp3",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 128,
+      "featured": false
+    },
+    {
+      "id": "kyklos",
+      "name": "Kyklos",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "greek-pop",
+        "international"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "https://azuracast.streams.ovh/public/radiokyklos",
+      "streams": [
+        {
+          "url": "https://azuracast.streams.ovh/radio/8120/radio.mp3?",
+          "codec": "mp3",
+          "bitrate": 320,
+          "priority": 1
+        }
+      ],
+      "popularity": 127,
+      "featured": false
+    },
+    {
+      "id": "sfera-2",
+      "name": "Sfera",
+      "name_el": "Σφαίρα",
+      "aliases": [
+        "Sfera FM",
+        "Σφαίρα FM"
+      ],
+      "country": "GR",
+      "city": "Athens",
+      "genres": [
+        "greek-pop"
+      ],
+      "frequency": {
+        "value": 102.2,
+        "unit": "MHz"
+      },
+      "logo": "https://sfera.gr/assets/gifs/Sfera-gif.gif",
+      "homepage": "https://sfera.gr/",
+      "streams": [
+        {
+          "url": "https://sfera.live24.gr/sfera4132",
+          "codec": "aac",
+          "bitrate": 128,
+          "priority": 1
+        }
+      ],
+      "popularity": 121,
+      "featured": false
+    },
+    {
+      "id": "deseo-radio",
+      "name": "Deseo Radio",
+      "name_el": null,
+      "aliases": [],
+      "country": "GR",
+      "city": null,
+      "genres": [
+        "international"
+      ],
+      "frequency": null,
+      "logo": null,
+      "homepage": "https://deseoradio.com/",
+      "streams": [
+        {
+          "url": "https://ec4.yesstreaming.net:2090/stream",
+          "codec": "aac",
+          "bitrate": 192,
+          "priority": 1
+        }
+      ],
+      "popularity": 117,
       "featured": false
     }
   ]
